@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+}
+
+body {
+	background: $light-color;
+	color: $dark-color;
+	font-family: Dosis, Arial, Helvetica, Sans-Serif;
+	font-size: 20px;
+	line-height: 1.75em;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 0.5em;
+	font-weight: 600;
+}
+
+.text-inverse {
+	color: $light-color;
+}
+

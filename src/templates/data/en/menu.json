@@ -1,0 +1,67 @@
+{
+	"items": [
+		{
+			"text":"About us",
+			"href":"#1",
+			"items": [
+				{
+					"text":"Idee",
+					"href":"#Idee"
+				},
+				{
+					"text":"Mission",
+					"href":"#mission"
+				},
+				{
+					"text":"Chronik",
+					"href":"#chronik"
+				}
+			]
+		},
+		{
+			"text":"The Project",
+			"href":"#2",
+			"items": [
+				{
+					"text":"Suppenküche",
+					"href":"#"
+				},
+				{
+					"text":"Schulen",
+					"href":"#"
+				},
+				{
+					"text":"Berufseinstieg",
+					"href":"#"
+				},
+				{
+					"text":"Hostel",
+					"href":"#"
+				}
+			]
+		},
+		{
+			"text":"Donate!",
+			"href":"#3",
+			"items": [
+				{
+					"text":"Spendenshop",
+					"href":"#"
+				},
+				{
+					"text":"Pate werden",
+					"href":"#"
+				},
+				{
+					"text":"Sponsoring",
+					"href":"#"
+				}
+			]
+		},
+		{
+			"text":"Contact",
+			"class": "contact",
+			"href":"#4"
+		}
+	]
+}

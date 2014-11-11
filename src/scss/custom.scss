@@ -1,0 +1,127 @@
+//@import "compass/css3/user-interface";
+@import "config";
+@import "colors";
+@import "fonts";
+@import "blocks";
+@import "minigrid";
+
+@import "defaults";
+
+
+header {
+	background: $bg-header;
+}
+
+.wrapper {
+	margin: auto;
+	max-width: 1152px;
+	position: relative;
+	width: 100%;
+}
+
+#topbar {
+
+	height: 88px;
+
+	#logo {
+
+
+		height: 284px;
+		background: #FFFFFF url(../img/logo.png) no-repeat center;
+		background-size: auto 220px;
+		left: 0px;
+		margin-top: 20px;
+		position: absolute;
+		top: 280px;
+		width: 288px;
+		box-shadow: 0 0 2px 0px black;
+
+		// height: 144px;
+		// background: url(../img/logo.png) no-repeat;
+		// background-size: auto 100%;
+		// left: 0;
+		// margin-top: 20px;
+		// position: absolute;
+		// top: 0;
+		// width: 148px;
+
+		h1 {
+			display: none;
+		}
+
+	}
+
+	nav {
+
+		position: absolute;
+		right: 0;
+		top: 16px;
+		font-weight: 500;
+
+		> ul {
+
+			li {
+				list-style: none;
+			}
+
+			> li {
+
+				float: left;
+				position: relative;
+
+				&.open {
+
+					ul {
+						display: block;
+					}
+
+				}
+
+				ul {
+					display: none;
+					background: $primary;
+					position: absolute;
+				}
+
+				&:hover {
+					ul {
+						display: block;
+					}
+				}
+
+			}
+
+			li a {
+				color: white;
+				display: block;
+				font-size: 24px;
+				font-family: Dosis, Arial, Helvetica, Sans-Serif;
+				padding: 0 28px;
+				line-height: 64px;
+				text-decoration: none;
+				vertical-align: middle;
+			}
+
+			li:hover > a {
+				color: #222;
+			}
+
+			.contact {
+				margin-left: 72px;
+			}
+
+		}
+
+	}
+
+}
+
+
+.content {
+	padding-top: 128px;
+}
+.stage {
+	background: url(../img/tmp/stage2.jpg) no-repeat;
+	height: 400px;
+	background-size: cover;
+}

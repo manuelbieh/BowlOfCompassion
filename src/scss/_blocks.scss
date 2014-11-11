@@ -1,0 +1,35 @@
+.box {
+
+	padding: 32px;
+
+	&.primary {
+		background: $primary;
+		color: $light-color;
+	}
+
+	.xxxl {
+		font-size: 72px;
+		line-height: 80px;
+	}
+	.xxl {
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.xl {
+		font-size: 32px;
+	}
+	.l {
+		font-size: 150%;
+	}
+	.m {
+		font-size: 100%;
+	}
+	.s {
+		font-size: 90%;
+	}
+	.xs {
+		font-size: 75%;
+	}
+
+
+}
