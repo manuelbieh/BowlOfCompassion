@@ -49,25 +49,25 @@ module.exports = function(grunt) {
 		},
 
 
-		site: {
-			options: {
-				data: [
-					'<%= config.dirs.src %>/templates/data/de/*.{json,yml}',
-					'<%= config.dirs.src %>/templates/data/shared/*.{json,yml}'
-				]
-			},
-			files: [{
+		// site: {
+		// 	options: {
+		// 		data: [
+		// 			'<%= config.dirs.src %>/templates/data/de/*.{json,yml}',
+		// 			'<%= config.dirs.src %>/templates/data/shared/*.{json,yml}'
+		// 		]
+		// 	},
+		// 	files: [{
 
-                cwd: '<%= config.dirs.src %>/templates/',
-                dest: '<%= config.dirs.src %>/',
-                //dest: '<%= config.dirs.dist %>/htdocs/',
-                expand: true,
-                flatten: false,
-                src: ['*.hbs']
+  //               cwd: '<%= config.dirs.src %>/templates/',
+  //               dest: '<%= config.dirs.src %>/',
+  //               //dest: '<%= config.dirs.dist %>/htdocs/',
+  //               expand: true,
+  //               flatten: false,
+  //               src: ['*.hbs']
 
-			}]
+		// 	}]
 
-		},
+		// },
 
 		// site: {
 

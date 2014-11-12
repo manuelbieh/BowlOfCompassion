@@ -12,6 +12,7 @@
 		max-width: 100%;
 		min-height: 1px;
 		margin: 0 8px;
+		overflow: hidden;
 
 		&.w1 {
 			width: calc(100%/12 - 16px);

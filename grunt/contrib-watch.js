@@ -33,17 +33,18 @@ module.exports = function(grunt) {
 
 			tasks: [
 				'clean:dev',
-				'useminPrepare',
+				// 'useminPrepare',
 				'sass:dev',
 				'copy:dev',
 				'assemble',
-				'useminPrepare',
-				'concat',
-				'uglify',
-				'cssmin',
+				// 'useminPrepare',
+				// 'concat',
+				// 'uglify',
+				// 'cssmin',
 				'autoprefixer',
+				'replace:subfolders',
 				// 'rev',
-				'usemin'
+				// 'usemin'
 			]
 
 		},

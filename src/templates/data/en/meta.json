@@ -1,0 +1,17 @@
+{
+	"meta": {
+		"language": "de",
+		"home": {
+			"filename":"index.html",
+			"title": "Startseite",
+			"link-en": "../en/index.html",
+			"active": ["navitem-3"]
+		},
+		"about-us": {
+			"filename":"about-us.html",
+			"title": "Über uns",
+			"link-en": "../de/ueber-uns.html",
+			"active": ["ueber-uns.html"]
+		}
+	}
+}

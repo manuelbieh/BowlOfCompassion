@@ -2,7 +2,7 @@
 	"items": [
 		{
 			"text":"Über uns",
-			"href":"#1",
+			"href":"ueber-uns.html",
 			"items": [
 				{
 					"text":"Idee",
@@ -15,6 +15,10 @@
 				{
 					"text":"Chronik",
 					"href":"#chronik"
+				},
+				{
+					"text":"Finanzierung",
+					"href":"#finanzierung"
 				}
 			]
 		},

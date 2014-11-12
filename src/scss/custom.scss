@@ -1,12 +1,12 @@
-//@import "compass/css3/user-interface";
 @import "config";
 @import "colors";
+@import "defaults";
 @import "fonts";
+
 @import "blocks";
 @import "minigrid";
 
-@import "defaults";
-
+@import "pages/_home";
 
 header {
 	background: $bg-header;
@@ -25,37 +25,26 @@ header {
 
 	#logo {
 
-
-		height: 284px;
+		height: 192px;
 		background: #FFFFFF url(../img/logo.png) no-repeat center;
-		background-size: auto 220px;
+		background-size: auto 160px;
 		left: 0px;
 		margin-top: 20px;
 		position: absolute;
-		top: 280px;
-		width: 288px;
+		top: 90px;
+		width: 192px;
 		box-shadow: 0 0 2px 0px black;
+		border-radius: 4px;
 
-		// height: 144px;
-		// background: url(../img/logo.png) no-repeat;
-		// background-size: auto 100%;
-		// left: 0;
-		// margin-top: 20px;
-		// position: absolute;
-		// top: 0;
-		// width: 148px;
+	}
 
-		h1 {
-			display: none;
-		}
-
+	#logo h1 {
+		display: none;
 	}
 
 	nav {
 
-		position: absolute;
-		right: 0;
-		top: 16px;
+		padding-top: 16px;
 		font-weight: 500;
 
 		> ul {
@@ -107,7 +96,7 @@ header {
 			}
 
 			.contact {
-				margin-left: 72px;
+				float: right;
 			}
 
 		}
@@ -116,12 +105,38 @@ header {
 
 }
 
+footer {
+	background: $footer-bg;
+	bottom: 0;
+	color: $footer-text;
+	min-height: 240px;
+	margin-top: 64px;
+	padding: 64px 0;
+	// position: absolute;
+	width: 100%;
+
+	a {
+		text-decoration: none;
+		color: #ccc;
+		&:hover {
+			color: #fff;
+		}
+	}
+
+}
+
+// #footer-pad {
+// 	margin-top: 384px;
+// 	height: 32px;
+// }
 
 .content {
-	padding-top: 128px;
+	padding-top: 112px;
 }
+
 .stage {
-	background: url(../img/tmp/stage2.jpg) no-repeat;
-	height: 400px;
+	background-image: url(../img/bgs/wall-small.jpg);
+	height: 150px;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
