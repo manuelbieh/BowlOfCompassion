@@ -36,15 +36,15 @@ module.exports = function(grunt) {
 			overwrite: true,
 			replacements: [
 				{
-					from: /<script (.*)src="js\//,
+					from: /<script (.*)src="js\//gi,
 					to: '<script $1src="../js/'
 				},
 				{
-					from: /<link (.*)href="css\//,
+					from: /<link (.*)href="css\//gi,
 					to: '<link $1href="../css/'
 				},
 				{
-					from: /<img(.*)src="img\//,
+					from: /<img(.*)src="img\//gi,
 					to: '<img $1src="../img/'
 				}
 			]

@@ -1,0 +1,53 @@
+---
+title: Chronik
+category: p-chronicle
+---
+
+{{pagemeta meta.chronicle}}
+
+{{> _topbar}}
+
+<div class="content">
+
+	<div class="wrapper minigrid">
+
+		<div class="col w2"></div>
+
+		<div class="col w8">
+
+			<h1>{{chronicle.headline}}</h1>
+
+			{{#each chronicle.block-01.paragraphs}}
+			<p>{{{.}}}</p>
+			{{/each}}
+
+		</div>
+
+	{{#each chronicle.items}}
+
+		<div class="row">
+
+			<div class="col w2 year">
+				<h2 class="is-primary">{{year}}</h2>
+			</div>
+
+			<div class="col w8">
+
+				{{#if headline}}
+					<h2>{{headline}}</h2>
+				{{/if}}
+
+				{{#each paragraphs}}
+				<p>{{{.}}}</p>
+				{{/each}}
+
+			</div>
+
+			<div class="col w2"></div>
+
+		</div>
+
+	{{/each}}
+
+	</div>
+</div>

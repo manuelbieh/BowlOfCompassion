@@ -1,0 +1,26 @@
+---
+title: Mission
+category: p-idea
+---
+
+{{pagemeta meta.mission}}
+
+{{> _topbar}}
+
+<div class="content">
+
+	<div class="wrapper minigrid">
+
+		<div class="col w8">
+			<h1>{{mission.headline}}</h1>
+			{{#each mission.block-01.paragraphs}}
+			<p>{{{.}}}</p>
+			{{/each}}
+		</div>
+
+		<div class="col w4">
+			<img src="{{mission.sidebar.img}}" alt="">
+		</div>
+
+	</div>
+</div>

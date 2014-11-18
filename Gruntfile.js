@@ -3,7 +3,11 @@ module.exports = function(grunt) {
 
 	require('time-grunt')(grunt);
 
-	require('load-grunt-tasks')(grunt);
+	// require('load-grunt-tasks')(grunt);
+	require('jit-grunt')(grunt, {
+		replace: 'grunt-text-replace',
+		configureRewriteRules: 'grunt-connect-rewrite'
+	});
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -21,11 +25,9 @@ module.exports = function(grunt) {
 			var tasks = [];
 
 			if (target === 'dist') {
-				return grunt.task.run(['build', 'connect:dist:keepalive']);
-			} else if(target === 'dev') {
-				tasks = ['dev', 'configureRewriteRules', 'connect:livereload', 'watch'];
+				return grunt.task.run(['build', 'connect:dist:keepalive', 'watch']);
 			} else {
-				tasks = ['build', 'configureRewriteRules', 'connect:livereload', 'watch'];
+				tasks = ['dev', 'configureRewriteRules', 'connect:livereload', 'watch'];
 			}
 
 			grunt.task.run(tasks);
@@ -68,7 +70,8 @@ module.exports = function(grunt) {
 			//'rev',
 			// 'usemin',
 			'replace:subfolders',
-			'newer:imagemin',
+			// 'imagemin',
+			'svgmin'
 			//'clean:post'
 		]
 	);
@@ -89,7 +92,7 @@ module.exports = function(grunt) {
 			// 'compress:gzip',
 			// 'rev',
 			// 'usemin',
-			'imagemin',
+			// 'imagemin',
 			'svgmin',
 			'htmlmin',
 			'replace:subfolders',

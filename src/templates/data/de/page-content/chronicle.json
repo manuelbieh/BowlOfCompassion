@@ -1,0 +1,53 @@
+{
+	"headline": "Chronik",
+	"block-01": {
+		"paragraphs": [
+			"Seit dem Start unseres Projekts im Jahr 2008 konnten viele großartige Dinge durch die Hilfe unserer Spender und Voluntäre realisiert werden. An vielen Stellen wurden unsere eigenen Erwartungen weit übertroffen. Die wichtigsten Meilensteine haben wir in unserer Chronik einmal übersichtlich zusammengefasst."
+		]
+	},
+	"sidebar": {
+		"img":"img/tmp/content01.jpg"
+	},
+	"items": [
+		{
+			"year":"2014",
+			"headline":"Die zweite Schule wird eröffnet",
+			"paragraphs": [
+				"Die Mädchenschule „Flowers of Lakshmi“ wird im nahegelegenen Dorf „Karma“ gestartet. Zunächst werden die Räumlichkeiten für 20 Mädchen angemietet."
+			]
+		},
+		{
+			"year":"2013",
+			"headline":"Hostel für Volunteers und Kunstraum entstehen",
+			"paragraphs": [
+				"Wir bekommen eine großzügige Spende aus den USA und können einen Kunstraum für unsere Schulkinder bauen lassen.",
+				"Das „Charity Backpackers“ wird ins Leben gerufen und belegt als Hostel den ersten Platz in der Region auf der Webseite „Tripadvisor“. Es entsteht ein Cafe für die Hostelgäste, in welchem indische Gerichte für einen guten Zweck serviert werden."
+			]
+		},
+		{
+			"year":"2012",
+			"headline":"Neue Klassenräume und 100 Kinder in der Grundschule",
+			"paragraphs": [
+				"Der dritte und vierte Klassenraum kann errichtet werden. 100 Kinder besuchen die Grundschule. Wir können eine Reinigungskraft, sowie einen Mitarbeiter für allgemeine Hilfsarbeiten einstellen.",
+				"Es entsteht die Idee eines Charity Hostels, um vor Ort Geld für das Projekt erwirtschaften zu können. Noch im selbigen Jahr kann durch eine Spende der Bau an einem Schlafsaal beginnen und fertig gestellt werden. Es fliessen die ersten selbst erwirtschafteten Einnahmen in Schulmaterialien für die Grundschule."
+			]
+		},
+		{
+			"year":"2011",
+			"headline":"Zweiter Klassenraum, Schultoilette und Handarbeits-Workshops",
+			"paragraphs": [
+				"Weitere Spendengelder ermöglichen den Bau eines zweiten Klassenraums und einer Schultoilette. Inzwischen besuchen bereits 70 Kinder die Grundschule.",
+				"Wir bieten Handarbeits-Workshops für junge Frauen an, an denen täglich bis zu 40 Frauen teilnehmen. Unsere Suppenküche wird mobil. Warme Mahlzeiten werden nun an bedürftige Menschen in den Straßen Bodhgayas verteilt."
+			]
+		},
+		{
+			"year":"2010",
+			"headline":"80 Besucher in der Suppenküche und eine eigene Schulköchin",
+			"paragraphs": [
+				"Die Anzahl der Suppenküchenbesucher steigt auf 40 weibliche und 40 männliche Personen an. ",
+				"Es wird eine Schulköchin eingestellt, die für die Schulkinder, wie auch für die Suppenküche kocht. Einige Woche später können 2 Lehrkräfte beschäftigt werden. Durch eine großzügige Einzelspende Ebenso kann eine bedachte Sitzmöglichkeit für die Schulmahlzeiten errichtet werden.",
+				"Die ersten internationalen freiwilligen Helfer und Gäste besuchen das Projekt. Aufgrund der vielen westlichen Besucher werden viele neuen Ideen verwirklicht. Skandinavischen Voluntäre ermöglichen durch eine Spende den Bau von 2 Gästeräumen, welche zugunsten des Projektes an Touristen vermietet werden."
+			]
+		}
+	]
+}

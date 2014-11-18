@@ -1,0 +1,32 @@
+---
+title: Spendenshop
+category: p-donations-shop
+---
+
+{{pagemeta meta.donations-shop}}
+
+{{> _topbar}}
+
+<div class="content">
+
+	<div class="wrapper minigrid">
+
+		{{#each donations-shop.items}}
+
+			<div class="col w3">
+				{{#if headline}}
+					<h1>{{headline}}</h1>
+					<p>{{{text}}}</p>
+				{{else}}
+					<h4>{{title}}</h4>
+					{{#with .}}
+					{{> _paypal-form}}
+					{{/with}}
+				{{/if}}
+			</div>
+
+		{{/each}}
+
+	</div>
+</div>
+

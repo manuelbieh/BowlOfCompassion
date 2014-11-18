@@ -2,23 +2,23 @@
 	"items": [
 		{
 			"text":"Über uns",
-			"href":"ueber-uns.html",
+			"href":"#about",
 			"items": [
 				{
 					"text":"Idee",
-					"href":"#Idee"
+					"href":"idee.html"
 				},
 				{
 					"text":"Mission",
-					"href":"#mission"
+					"href":"mission.html"
 				},
 				{
 					"text":"Chronik",
-					"href":"#chronik"
+					"href":"chronik.html"
 				},
 				{
 					"text":"Finanzierung",
-					"href":"#finanzierung"
+					"href":"finanzierung.html"
 				}
 			]
 		},
@@ -46,11 +46,11 @@
 		},
 		{
 			"text":"Spenden",
-			"href":"#3",
+			"href":"spenden.html",
 			"items": [
 				{
 					"text":"Spendenshop",
-					"href":"#"
+					"href":"spendenshop.html"
 				},
 				{
 					"text":"Pate werden",

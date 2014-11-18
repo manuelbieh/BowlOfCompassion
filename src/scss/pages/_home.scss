@@ -1,17 +1,25 @@
 .home {
 
-	#topbar #logo {
+	.content {
+		padding-top: 92px;
+	}
 
-		height: 284px;
-		background-size: auto 220px;
-		top: 250px;
-		width: 288px;
-
+	.content + .content {
+		padding-top: 48px;
+		@include respond-to(phone) {
+			padding-top: 8px;
+		}
 	}
 
 	.stage {
+
 		background-image: url(../img/tmp/stage2.jpg);
 		height: 400px;
+
+		@include respond-to(phone) {
+			height: 320px;
+		}
+
 	}
 
 }

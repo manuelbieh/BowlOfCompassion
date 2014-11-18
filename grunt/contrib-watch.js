@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 			},
 
 			files: [
-				'<%= config.dirs.src %>/**/*.{html,js,hbs,json,css,scss}',
+				'<%= config.dirs.src %>/**/*.{html,js,hbs,json}',
 			],
 
 			tasks: [
@@ -43,8 +43,28 @@ module.exports = function(grunt) {
 				// 'cssmin',
 				'autoprefixer',
 				'replace:subfolders',
+				// 'newer:imagemin',
+				'newer:svgmin'
 				// 'rev',
 				// 'usemin'
+			]
+
+		},
+
+		scss: {
+
+			options: {
+				//livereload: true,
+				livereload: '<%= connect.options.livereload %>'
+			},
+
+			files: [
+				'<%= config.dirs.src %>/**/*.{scss,css}',
+			],
+
+			tasks: [
+				'sass:dev',
+				'autoprefixer',
 			]
 
 		},

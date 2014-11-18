@@ -31,5 +31,22 @@
 		font-size: 75%;
 	}
 
+}
+
+
+@media #{$mq-tablet-and-below} {
+
+	.box {
+
+		.xxxl {
+			font-size: 44px;
+			line-height: 50px;
+		}
+
+		.xl {
+			font-size: 24px;
+		}
+
+	}
 
 }

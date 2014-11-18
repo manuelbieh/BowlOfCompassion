@@ -1,0 +1,46 @@
+#logo {
+
+	background: #FFFFFF url(../img/logo.png) no-repeat center;
+	background-size: auto 160px;
+	box-shadow: 0 0 2px 0px black;
+	border-radius: 4px;
+	height: 192px;
+	left: 0px;
+	margin-top: 20px;
+	position: absolute;
+	// top: 90px;
+	width: 192px;
+
+	@include respond-to(phone) {
+		left: 50%;
+		transform: translateX(-50%);
+		display: none;
+	}
+
+}
+
+
+#logo h1 {
+	display: none;
+}
+
+.home {
+
+	#logo {
+
+		background-size: auto 220px;
+		height: 284px;
+		bottom: -62px;
+		width: 288px;
+
+		@include respond-to(phone) {
+			height: 200px;
+			background-size: auto 188px;
+			// top: 250px;
+			width: 204px;
+			display: block;
+		}
+
+	}
+
+}

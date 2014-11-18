@@ -4,14 +4,49 @@
 		"home": {
 			"filename":"index.html",
 			"title": "Startseite",
-			"link-en": "../en/index.html",
-			"active": ["navitem-3"]
+			"link-en": "../en/index.html"
 		},
 		"about-us": {
 			"filename":"ueber-uns.html",
 			"title": "Über uns",
 			"link-en": "../en/about-us.html",
-			"active": ["ueber-uns.html"]
+			"active": ["#about", "ueber-uns.html"]
+		},
+		"idea": {
+			"filename":"idee.html",
+			"title": "Idee",
+			"link-en": "../en/idea.html",
+			"active": ["ueber-uns.html", "idee.html"]
+		},
+		"mission": {
+			"filename":"mission.html",
+			"title": "Mission",
+			"link-en": "../en/mission.html",
+			"active": ["ueber-uns.html", "mission.html"]
+		},
+		"chronicle": {
+			"filename":"chronik.html",
+			"title": "Chronik",
+			"link-en": "../en/chronicle.html",
+			"active": ["ueber-uns.html", "chronik.html"]
+		},
+		"financing": {
+			"filename":"finanzierung.html",
+			"title": "Finanzierung",
+			"link-en": "../en/financing.html",
+			"active": ["ueber-uns.html", "financing.html"]
+		},
+		"donate": {
+			"filename":"spenden.html",
+			"title": "Spenden",
+			"link-en": "../en/donations.html",
+			"active": ["spenden.html"]
+		},
+		"donations-shop": {
+			"filename":"spendenshop.html",
+			"title": "Spendenshop",
+			"link-en": "../en/donations-shop.html",
+			"active": ["spendenshop.html"]
 		}
 	}
 }

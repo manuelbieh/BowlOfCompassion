@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 			// Default is 35729. Feel free to change when working on several projects
 			// at the same time to prevent "port already in use" errors
 			useAvailablePort: true,
-			hostname: 'localhost' // use 0.0.0.0 to make it available to public. Note: 0.0.0.0 might be fucked up on windows machines.
+			hostname: '*' // use 0.0.0.0 to make it available to public. Note: 0.0.0.0 might be fucked up on windows machines.
 		},
 		rules: [
 			{
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
 			options: {
 
-				open: true,
+				open: 'http://localhost:9009/de/',
 				base: [
 					'.tmp',
 					// '<%= config.dirs.src %>',

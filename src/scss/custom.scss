@@ -1,4 +1,6 @@
 @import "config";
+@import "mixins/_respond-to";
+
 @import "colors";
 @import "defaults";
 @import "fonts";
@@ -6,124 +8,52 @@
 @import "blocks";
 @import "minigrid";
 
+@import "modules/_footer";
+@import "modules/_topbar";
+@import "modules/_logo";
+
 @import "pages/_home";
+@import "pages/_chronicle";
+
+@import "responsive";
 
 header {
 	background: $bg-header;
 }
 
+#wrapper {
+	padding-top: 88px;
+	@include respond-to(phone) {
+		padding-top: 64px;
+	}
+}
+
 .wrapper {
 	margin: auto;
-	max-width: 1152px;
 	position: relative;
 	width: 100%;
 }
 
-#topbar {
-
-	height: 88px;
-
-	#logo {
-
-		height: 192px;
-		background: #FFFFFF url(../img/logo.png) no-repeat center;
-		background-size: auto 160px;
-		left: 0px;
-		margin-top: 20px;
-		position: absolute;
-		top: 90px;
-		width: 192px;
-		box-shadow: 0 0 2px 0px black;
-		border-radius: 4px;
-
+@media #{$mq-desktop} {
+	.wrapper {
+		max-width: 1440px;
+		min-width: 1152px;
 	}
-
-	#logo h1 {
-		display: none;
-	}
-
-	nav {
-
-		padding-top: 16px;
-		font-weight: 500;
-
-		> ul {
-
-			li {
-				list-style: none;
-			}
-
-			> li {
-
-				float: left;
-				position: relative;
-
-				&.open {
-
-					ul {
-						display: block;
-					}
-
-				}
-
-				ul {
-					display: none;
-					background: $primary;
-					position: absolute;
-				}
-
-				&:hover {
-					ul {
-						display: block;
-					}
-				}
-
-			}
-
-			li a {
-				color: white;
-				display: block;
-				font-size: 24px;
-				font-family: Dosis, Arial, Helvetica, Sans-Serif;
-				padding: 0 28px;
-				line-height: 64px;
-				text-decoration: none;
-				vertical-align: middle;
-			}
-
-			li:hover > a {
-				color: #222;
-			}
-
-			.contact {
-				float: right;
-			}
-
-		}
-
-	}
-
 }
 
-footer {
-	background: $footer-bg;
-	bottom: 0;
-	color: $footer-text;
-	min-height: 240px;
-	margin-top: 64px;
-	padding: 64px 0;
-	// position: absolute;
-	width: 100%;
-
-	a {
-		text-decoration: none;
-		color: #ccc;
-		&:hover {
-			color: #fff;
-		}
+@media #{$mq-tablet} {
+	.wrapper {
+		max-width: 1151px;
+		min-width: 768px;
 	}
-
 }
+
+@media #{$mq-phone} {
+	.wrapper {
+		max-width: 767px;
+	}
+}
+
 
 // #footer-pad {
 // 	margin-top: 384px;
@@ -131,12 +61,31 @@ footer {
 // }
 
 .content {
-	padding-top: 112px;
+	padding-top: 96px;
+	@include respond-to(phone) {
+		padding-top: 32px;
+	}
+}
+
+.content + .content {
+	padding-top: 48px;
+	@include respond-to(phone) {
+		padding-top: 8px;
+	}
 }
 
 .stage {
+
 	background-image: url(../img/bgs/wall-small.jpg);
 	height: 150px;
 	background-size: cover;
 	background-repeat: no-repeat;
+
+	.wrapper {
+		height: 100%;
+	}
+}
+
+.is-primary {
+	color: $primary;
 }

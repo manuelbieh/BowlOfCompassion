@@ -1,0 +1,49 @@
+<header id="topbar">
+
+	<div class="wrapper">
+
+		<nav>
+
+			<button id="toggle-nav" class="phone-only">
+				<span></span>
+			</button>
+
+			<ul>
+	{{#each menu.items}}
+
+				<li class="{{class}}{{#if active}} active{{/if}}">
+					<{{#if href}}a href="{{href}}"{{else}}span{{/if}}>{{text}}</{{#if href}}a{{else}}span{{/if}}>
+				{{#if items}}
+					<ul>
+						{{#each items}}
+							<li class="{{#if active}} active{{/if}}"><a href="{{href}}">{{text}}</a></li>
+						{{/each}}
+					</ul>
+				{{/if}}
+				</li>
+	{{/each}}
+			</ul>
+
+		</nav>
+
+	</div>
+
+	<script>
+	var navButton = document.getElementById('toggle-nav');
+	var header = document.getElementById('topbar');
+
+	navButton.addEventListener('click', function(e) {
+		header.querySelector('nav').classList.toggle('is-open');
+	});
+
+	</script>
+
+</header>
+
+<div class="stage">
+	<div class="wrapper">
+		<a href="./" id="logo">
+			<h1>Bowl of Compassion</h1>
+		</a>
+	</div>
+</div>

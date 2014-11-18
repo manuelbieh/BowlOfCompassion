@@ -1,0 +1,5 @@
+.phone-only {
+	@include respond-to(tablet-and-above) {
+		display: none;
+	}
+}

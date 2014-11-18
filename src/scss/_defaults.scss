@@ -53,6 +53,10 @@ button, input[type="button"], input[type="submit"], .button {
 
 }
 
+img {
+	max-width: 100%;
+}
+
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -62,3 +66,9 @@ button, input[type="button"], input[type="submit"], .button {
 	color: $light-color;
 }
 
+
+@media #{$mq-tablet-and-below} {
+	body {
+		font-size: 16px;
+	}
+}
