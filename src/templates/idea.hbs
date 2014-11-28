@@ -9,20 +9,32 @@ category: p-idea
 
 <div class="content">
 
+{{#with idea}}
 	<div class="wrapper minigrid">
 
+		<h1>{{headline}}</h1>
+
 		<div class="col w8">
-			<h1>{{idea.headline}}</h1>
-			<p>Wir bauen und betreiben Schulen und Suppenküchen in Armutsregionen in Indien. Mit deiner Spende kannst du helfen alten Menschen und bedürftigen Kindern ein würdevolles Leben zu ermöglichen. </p>
+			{{#each paragraphs}}
+			<p>{{{.}}}</p>
+			{{/each}}
 		</div>
 
-		<div class="col w1"></div>
-
-		<div class="col w3">
-			<div class="box primary">
-				<p class="xl">Über <span class="xxxl">140.000</span> Mahlzeiten serviert.</p>
+		<div class="col w4 phone-4">
+			{{#each img}}
+			<div class="col
+				{{#compare size "half"}}w6{{/compare}}
+				{{#compare size "full"}}w12{{/compare}}">
+				<img src="{{src}}">
 			</div>
+			{{/each}}
+			<!--<div class="col w6">1</div>
+			<div class="col w6">2</div>
+			<div class="col w6">3</div>
+			<div class="col w6">4</div>-->
 		</div>
 
 	</div>
+
+{{/with}}
 </div>

@@ -1,22 +1,22 @@
 {
 	"mission": {
 		"headline":"Unsere Mission",
-		"img":"img/icons/test/reach.png",
+		"img":"img/icons/reach.png",
 		"text": "Wir möchten helfen. Dort, wo es dringend nötig ist. Den Menschen, die Hilfe dringend benötigen."
 	},
 	"education": {
 		"headline":"Schulbildung",
-		"img":"img/icons/test/learn.png",
+		"img":"img/icons/learn.png",
 		"text": "Hilfe zur Selbsthilfe: wir ermöglichen kastenlosen Kindern eine Schulbildung – natürlich mit Option auf einen anerkannten Highschool-Abschluss!"
 	},
 	"meals": {
 		"headline":"Warme Mahlzeiten",
-		"img":"img/icons/test/eat.png",
+		"img":"img/icons/eat.png",
 		"text": "Lernen lässt es sich schwer ohne etwas im Magen. Daher bieten wir all unseren Kindern, ebenso wie armen, alten und gebrechlichen Menschen eine warme Mahlzeit."
 	},
 	"donate": {
 		"headline":"Jetzt spenden!",
-		"img":"img/icons/test/give.png",
+		"img":"img/icons/give.png",
 		"text": "Wir finanzieren uns zum überwiegenden Teil aus Spenden. Dafür sind wir auch auf deine Hilfe angewiesen!"
 	}
 }

@@ -11,104 +11,86 @@
 			"text":"Zweckgebunden spenden, ganz einfach. Wähle einfach etwas aus der Liste aus was du spenden möchtest und bezahle unkompliziert über Paypal."
 		},
 		{
-			"title":"Wasserbrunnen",
-			"price":"500.00",
+			"title":"Ein Paket Schulmaterial",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Eine Schultasche",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Eine Schuluniform",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Eine warme Decke für Obdachlose im Winter",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Eine Schultafel",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Computer für die Schule",
+			"price":"250.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Paket Spielsachen für die Schule",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"School kitchen equipment",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Paket Bücher für die Schulbibliothek",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Monatsration für eine Person für die Suppenküche",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein neuer Klassenraum für die Karma-Mädchenschule",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Ventilator für den Klassenraum",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Stromgenerator",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		},
 		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
-			"img":"",
-			"text":""
-		},
-		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
-			"img":"",
-			"text":""
-		},
-		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
-			"img":"",
-			"text":""
-		},
-		{
-			"title":"Wasserpumpe",
-			"price":"100.00",
+			"title":"Ein Wasserbrunnen",
+			"price":"0.00",
 			"img":"",
 			"text":""
 		}

@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-	margin-bottom: 0.5em;
+	margin-bottom: 1.25em;
 }
 
 button, input[type="button"], input[type="submit"], .button {
@@ -33,6 +33,7 @@ button, input[type="button"], input[type="submit"], .button {
 	cursor: pointer;
 	display: inline-block;
 	font-size: 18px;
+	font-family: inherit;
 	font-weight: 600;
 	line-height: 1.5em;
 	outline: none;
@@ -55,6 +56,14 @@ button, input[type="button"], input[type="submit"], .button {
 
 img {
 	max-width: 100%;
+}
+
+blockquote p {
+	text-align: center;
+}
+
+q {
+	font-style: italic;
 }
 
 #wrapper {

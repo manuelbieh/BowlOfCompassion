@@ -1,0 +1,29 @@
+---
+title: Hostel
+category: p-hostel
+---
+
+{{pagemeta meta.hostel}}
+
+{{> _topbar}}
+
+{{#with hostel}}
+<div class="content">
+
+	<div class="wrapper minigrid">
+
+		<div class="col w8">
+			<h1>{{headline}}</h1>
+			{{#each block-01.paragraphs}}
+			<p>{{{.}}}</p>
+			{{/each}}
+		</div>
+
+		<div class="col w4 phone-4">
+			{{{tripadvisor}}}
+		</div>
+
+	</div>
+</div>
+{{/with}}
+

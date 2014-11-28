@@ -2,6 +2,10 @@
 
 	padding: 32px;
 
+	@include respond-to($mq-desktop) {
+		max-width: 360px;
+	}
+
 	&.primary {
 		background: $primary;
 		color: $light-color;

@@ -7,6 +7,85 @@ category: p-idea
 
 {{> _topbar}}
 
+
+<div class="content">
+{{#with mission}}
+
+	<div class="wrapper minigrid">
+
+		<div class="row">
+
+			<div class="col w8">
+				<h1>{{headline}}</h1>
+				{{#each paragraphs}}
+				<p>{{{.}}}</p>
+				{{/each}}
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col w8">
+				<h2>{{block-01.headline}}</h2>
+				{{#each block-01.paragraphs}}
+				<p>{{{.}}}</p>
+				{{/each}}
+			</div>
+
+			<div class="col w4 phone-4">
+				<img src="{{block-01.img.[0].src}}">
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col w8">
+				<h2>{{block-02.headline}}</h2>
+				{{#each block-02.paragraphs}}
+				<p>{{{.}}}</p>
+				{{/each}}
+			</div>
+
+			<div class="col w2 phone-2">
+				<img src="{{block-02.img.[0].src}}">
+			</div>
+
+			<div class="col w2 phone-2">
+				<img src="{{block-02.img.[1].src}}">
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col w8">
+				<h2>{{block-03.headline}}</h2>
+				{{#each block-03.paragraphs}}
+				<p>{{{.}}}</p>
+				{{/each}}
+			</div>
+
+			<div class="col w2 phone-2">
+				<img src="{{block-03.img.[0].src}}">
+			</div>
+
+			<div class="col w2 phone-2">
+				<img src="{{block-03.img.[1].src}}">
+			</div>
+
+		</div>
+
+	</div>
+
+{{/with}}
+</div>
+
+{{!--
 <div class="content">
 
 	<div class="wrapper minigrid">
@@ -24,3 +103,4 @@ category: p-idea
 
 	</div>
 </div>
+--}}

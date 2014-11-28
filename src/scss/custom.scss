@@ -14,6 +14,7 @@
 
 @import "pages/_home";
 @import "pages/_chronicle";
+@import "pages/_shop";
 
 @import "responsive";
 
@@ -26,6 +27,8 @@ header {
 	@include respond-to(phone) {
 		padding-top: 64px;
 	}
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .wrapper {
@@ -61,9 +64,16 @@ header {
 // }
 
 .content {
+	clear: both;
 	padding-top: 96px;
 	@include respond-to(phone) {
 		padding-top: 32px;
+	}
+	.content {
+		padding-top: 48px;
+	}
+	.content:first-child {
+		padding-top: 0;
 	}
 }
 
@@ -88,4 +98,8 @@ header {
 
 .is-primary {
 	color: $primary;
+}
+
+.is-greyed {
+	color: $text-grey;
 }

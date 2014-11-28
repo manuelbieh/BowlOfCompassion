@@ -1,4 +1,10 @@
 .p-chronicle {
+	.intro {
+		margin-bottom: 32px;
+		@include respond-to($mq-phone) {
+			margin-bottom: 16px;
+		}
+	}
 	.year {
 		text-align: right;
 		@include respond-to(tablet-portrait) {

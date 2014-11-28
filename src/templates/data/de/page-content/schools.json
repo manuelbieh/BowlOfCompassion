@@ -1,0 +1,40 @@
+{
+	"headline": "Unsere Schulen",
+	"paragraphs": [
+		"Um unsere Kindern nicht nur mit Essen zu versorgen, sondern ihnen langfristig auch eine Perspektive zu geben, bieten wir in inzwischen zwei Schulen kostenlosen Schulunterricht an. Diese befinden sich in einer der ärmsten Regionen Indiens, in der viele Familien ihren Lebensunterhalt durch betteln bestreiten."
+	],
+	"quote": "<q>Give a man a fish and you feed him for a day;<br> teach a man to fish and you feed him for a lifetime</q><br> – Maimonides",
+	"img": {
+		"src":"img/content/school-03.jpg"
+	},
+	"block-01": {
+		"headline":"Die „A Bowl of Compassion Grundschule“ in Tika Bigha, Bodhgaya",
+		"paragraphs": [
+			"Im November 2009 öffneten wir die Türen unserer Grundschule für bedürftige Kinder im Dorf „Tika Bigha“ in Bodhgaya. Unsere Kinder stammen aus ärmsten Lebensverhältnissen und leben mit Ihren Familien in einfachen Behausungen aus Lehm, ohne fliessend Wasser und Strom. Da Ihre Eltern ohne Schulbildung aufgewachsen sind und somit kaum Aussichten auf dem Arbeitsmarkt bestehen, bestreiten diese oftmals Ihren Lebensunterhalt durch Betteln.",
+			"Wir ermöglichen diesen Kindern Zugang zu Bildung und ebnen Ihnen den Weg bishin zur Erlangung ihrer Hochschulreife. Dabei arbeiten wir Hand in Hand mit unserem Partner, der „Siddharta Highschool“. Im Jahr 2014 gehen bereits mehr als 120 Kinder bei uns zur Schule. Ermöglicht wird dies durch die Spenden unserer deutschen und internationalen Paten."
+		],
+		"img": [
+			{
+				"src":"img/content/school-01.jpg"
+			},
+			{
+				"src":"img/content/school-02.jpg"
+			}
+		]
+	},
+	"block-02": {
+		"headline":"„Flowers of Lakshmi“ Mädchenschule",
+		"paragraphs":[
+			"2014 starteten wir den Unterricht für zunächst 20 Mädchen im benachbarten Dorf Karma. Bisher sind die Räumlichkeiten für den Unterricht angemietet, wo unsere Kinder lernen und gemeinsam Mahlzeiten zu sich nehmen können.",
+			"Unser nächstes Ziel ist es nun, eine Schule auf eigenem Grund und Boden errichten. Wir hoffen, dass wir dieses Ziel bis 2015 erreichen können."
+		],
+		"img": [
+			{
+				"src":"img/content/school-04.jpg"
+			},
+			{
+				"src":"img/content/school-05.jpg"
+			}
+		]
+	}
+}

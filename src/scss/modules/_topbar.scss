@@ -39,28 +39,42 @@
 					max-height: 0;
 				}
 
-				&:hover {
-					ul {
-						max-height: 2000px;
-					}
+				// &:hover {
+				// 	ul {
+				// 		max-height: 2000px;
+				// 	}
+				// }
+
+			}
+
+			li {
+				a, > span {
+					color: white;
+					cursor: pointer;
+					display: block;
+					font-size: 24px;
+					font-family: Dosis, Arial, Helvetica, Sans-Serif;
+					padding: 0 28px;
+					line-height: 64px;
+					text-decoration: none;
+					vertical-align: middle;
+					white-space: nowrap;
 				}
-
 			}
 
-			li a, li > span {
-				color: white;
-				display: block;
-				font-size: 24px;
-				font-family: Dosis, Arial, Helvetica, Sans-Serif;
-				padding: 0 28px;
-				line-height: 64px;
-				text-decoration: none;
-				vertical-align: middle;
+			li:hover,
+			li.active {
+				> a,
+				> span {
+					color: #222;
+				}
 			}
 
-			li:hover > a, li:hover > span {
-				color: #222;
-			}
+			// li:hover > a,
+			// li:hover > span,
+			// li.active > a {
+			// 	color: #222;
+			// }
 
 			.contact {
 				float: right;
@@ -70,6 +84,16 @@
 
 	}
 
+}
+
+@media #{$mq-tablet-and-above} {
+	#topbar nav > ul {
+		> li:hover {
+			ul {
+				max-height: 2000px;
+			}
+		}
+	}
 }
 
 @media #{$mq-phone} {
@@ -113,6 +137,7 @@
 				> li {
 					ul {
 						background: lighten($bg-header, 10);
+						max-height: initial;
 						position: static;
 						li a, li span {
 							padding-left: 32px;

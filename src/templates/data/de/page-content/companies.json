@@ -1,0 +1,27 @@
+{
+	"headline": "Spenden durch Unternehmen",
+	"block-01": {
+		"paragraphs": [
+			"Unterstützen Sie unseren Verein mit einer Unternehmensspende! Der Bowl of Compassion e.V. ist ein vom Finanzamt anerkannter gemeinnütziger Verein und Spenden somit abzugsfähig. Eine Spendenquittung erhalten Sie wenige Tage nach Anforderung. Schreiben Sie dazu bitte einfach eine kurze <a href=\"kontakt.html\">E-Mail an unsere Kassenwart.</a>",
+			"Grundsätzlich können Sie dabei über die Höhe der Spende frei entscheiden, einen Auftrag für eine Dauerspende bei Ihrer Bank einrichten oder auch einmalig Spenden. Bei Spenden ab <strong>250,00 Euro</strong> nennen wir Sie auf Wunsch gern für 12 Monate mit Logo und Verlinkung als Partner auf unserer Internetseite.",
+			"Bei einmaligen Spenden ab <strong>1.000,00 Euro</strong> fügen wir gern eine dauerhafte Widmung an einer Wand in einem unserer Klassenzimmer ein oder stellen Ihr Unternehmen mit einem kurzen Portrait auf unserer Facebook-Seite vor. Wenden Sie sich für weitere Fördermöglichkeiten gern bei unserem Vorstand."
+		]
+	},
+	"sidebar": {
+		"headline": "Unsere Partner"
+	},
+	"partners": [
+		{
+			"title":"wiremore",
+			"description":"",
+			"img":"img/companies/wiremore.svg",
+			"href":"http://www.wiremore.com/"
+		},
+		{
+			"title":"AWO Dortmund",
+			"description":"",
+			"img":"img/companies/awoww_logo.gif",
+			"href":"http://www.awo-dortmund.de/"
+		}
+	]
+}

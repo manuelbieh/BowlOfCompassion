@@ -2,14 +2,14 @@
 	"items": [
 		{
 			"text":"Über uns",
-			"href":"#about",
+			"id":"m-about",
 			"items": [
 				{
-					"text":"Idee",
+					"text":"Die Idee",
 					"href":"idee.html"
 				},
 				{
-					"text":"Mission",
+					"text":"Unsere Mission",
 					"href":"mission.html"
 				},
 				{
@@ -24,48 +24,52 @@
 		},
 		{
 			"text":"Das Projekt",
-			"href":"#2",
+			"id":"m-project",
 			"items": [
 				{
 					"text":"Suppenküche",
-					"href":"#"
+					"href":"suppenkueche.html"
 				},
 				{
 					"text":"Schulen",
-					"href":"#"
+					"href":"schulen.html"
 				},
 				{
-					"text":"Berufseinstieg",
-					"href":"#"
+					"text":"Individuelle Hilfe",
+					"href":"individuelle-hilfe.html"
 				},
 				{
 					"text":"Hostel",
-					"href":"#"
+					"href":"hostel.html"
 				}
 			]
 		},
 		{
 			"text":"Spenden",
-			"href":"spenden.html",
+			"id":"m-donate",
 			"items": [
+				{
+					"text":"Jetzt spenden!",
+					"href":"spenden.html"
+				},
 				{
 					"text":"Spendenshop",
 					"href":"spendenshop.html"
 				},
 				{
 					"text":"Pate werden",
-					"href":"#"
+					"href":"patenschaft.html"
 				},
 				{
-					"text":"Sponsoring",
-					"href":"#"
+					"text":"Unternehmen",
+					"href":"unternehmen.html"
 				}
 			]
 		},
 		{
 			"text":"Kontakt",
 			"class": "contact",
-			"href":"#4"
+			"href":"kontakt.html"
 		}
 	]
 }
