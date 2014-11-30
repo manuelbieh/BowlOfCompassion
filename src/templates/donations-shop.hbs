@@ -12,24 +12,28 @@ category: p-donations-shop
 	<div class="wrapper minigrid shopgrid">
 
 		{{#each donations-shop.items}}
-			<div class="col w3 phone-4 item">
+
+			<div class="col w3 phone-4 tablet-4 item">
+
 				{{#if headline}}
 					<h1>{{headline}}</h1>
 					<p>{{{text}}}</p>
 				{{else}}
+
+				<h3>{{title}}</h3>
+				<h4 class="is-greyed">{{price}} EUR</h4>
+				<img src="{{#if img}}{{img}}{{else}}img/icons/no-img.png{{/if}}" class="item-img" alt="">
+
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<h3>{{title}}</h3>
-					<h4 class="is-greyed">{{price}} EUR</h4>
-					<img src="img/icons/no-img.png" alt="">
 					{{#with .}}
 					{{!--
 					{{> _paypal-form-de}}
 					--}}
 					{{/with}}
-					<input type="submit" value="Jetzt kaufen" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<input type="submit" value="Jetzt spenden!" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<input type="hidden" name="cmd" value="_xclick">
 					<input type="hidden" name="business" value="mail@bowlofcompassion.org">
-					<input type="hidden" name="lc" value="US">
+					<input type="hidden" name="lc" value="DE">
 					<input type="hidden" name="item_name" value="{{title}}">
 					<input type="hidden" name="amount" value="{{price}}">
 					<input type="hidden" name="currency_code" value="{{#if currency}}{{currency}}{{else}}EUR{{/if}}">

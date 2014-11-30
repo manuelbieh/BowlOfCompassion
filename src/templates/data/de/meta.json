@@ -89,6 +89,18 @@
 			"title": "Patenschaft",
 			"link-en": "../en/sponsoring.html",
 			"active": ["m-donate", "patenschaft.html"]
+		},
+		"contact": {
+			"filename":"kontakt.html",
+			"title": "Kontakt",
+			"link-en": "../en/contact.html",
+			"active": ["kontakt.html"]
+		},
+		"legal": {
+			"filename":"impressum.html",
+			"title": "Impressum",
+			"link-en": "../en/legal-information.html",
+			"active": ["impressum.html"]
 		}
 	}
 }

@@ -13,19 +13,21 @@ category: p-soupkitchen
 {{#with soupkitchen}}
 	<div class="wrapper minigrid">
 
-		<h1>{{headline}}</h1>
+		<div class="col w12">
+			<h1>{{headline}}</h1>
+		</div>
 
-		<div class="col w8">
+		<div class="col w8 tablet-12">
 			{{#each block-01.paragraphs}}
 			<p>{{{.}}}</p>
 			{{/each}}
 		</div>
 
-		<div class="col w2 phone-2">
+		<div class="col w2 phone-2 tablet-6">
 			<img src="{{block-01.img.[0].src}}">
 		</div>
 
-		<div class="col w2 phone-2">
+		<div class="col w2 phone-2 tablet-6">
 			<img src="{{block-01.img.[1].src}}">
 		</div>
 

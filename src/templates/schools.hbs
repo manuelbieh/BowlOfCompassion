@@ -14,7 +14,7 @@ category: p-schools
 	<div class="wrapper minigrid">
 
 		<div class="content">
-			<div class="col w8">
+			<div class="col w8 tablet-12">
 				<h1>{{headline}}</h1>
 				{{#each paragraphs}}
 				<p>{{{.}}}</p>
@@ -23,38 +23,38 @@ category: p-schools
 					<p>{{{quote}}}</p>
 				</blockquote>
 			</div>
-			<div class="col w4 phone-4">
+			<div class="col w4 phone-4 tablet-12">
 				<img src="{{img.src}}" alt="">
 			</div>
 		</div>
 
 		<div class="content">
-			<div class="col w8">
+			<div class="col w8 tablet-12">
 				<h2>{{block-01.headline}}</h2>
 				{{#each block-01.paragraphs}}
 				<p>{{{.}}}</p>
 				{{/each}}
 			</div>
-			<div class="col w2 phone-2">
+			<div class="col w2 phone-2 tablet-6">
 				<img src="{{block-01.img.[0].src}}">
 			</div>
-			<div class="col w2 phone-2">
+			<div class="col w2 phone-2 tablet-6">
 				<img src="{{block-01.img.[1].src}}">
 			</div>
 		</div>
 
 		<div class="content">
-			<div class="col w8">
+			<div class="col w8 tablet-12">
 				<h2>{{block-02.headline}}</h2>
 				{{#each block-02.paragraphs}}
 				<p>{{{.}}}</p>
 				{{/each}}
 			</div>
 		</div>
-		<div class="col w2 phone-2">
+		<div class="col w2 phone-2 tablet-6">
 			<img src="{{block-02.img.[0].src}}">
 		</div>
-		<div class="col w2 phone-2">
+		<div class="col w2 phone-2 tablet-6">
 			<img src="{{block-02.img.[1].src}}">
 		</div>
 	</div>

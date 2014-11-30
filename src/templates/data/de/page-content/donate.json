@@ -1,8 +1,18 @@
 {
-	"headline": "Spenden",
+	"headline": "Spendenmöglichkeiten",
+	"paragraphs": [
+		"Wir bieten euch diverse Möglichkeiten uns bei unserer Arbeit vor Ort in Indien zu unterstützen. Als in Deutschland gemeinnützig anerkannter Verein können wir dabei Spendenbescheinigungen ausstellen, die steuerlich abgesetzt und mit der Steuererklärung eingereicht werden können. Um eine Spendenquittung zu erhalten, wende dich bitte rechtzeitig per E-Mail an uns. Da wir keinerlei bezahlten Verwaltungskräfte beschäftigen, kann es manchmal einige Tage dauern bis wir dir die Spendenquittung ausstellen können."
+	],
 	"block-01": {
+		"headline":"Spendenkonto",
 		"paragraphs": [
-			"Hier könnt ihr spenden."
+			"<strong>Kontonummer:</strong> 911001802<br><strong>Bankleitzahl:</strong> 44050199<br><strong>Stadtsparkasse Dortmund</strong><br><strong>BIC:</strong> DORTDE33XXX<br><strong>IBAN:</strong> DE87440501990911001802"
 		]
+	},
+	"block-02": {
+		"headline":"Dauerspende über Paypal"
+	},
+	"block-03": {
+		"headline":"Einmalige Spende über Paypal"
 	}
 }

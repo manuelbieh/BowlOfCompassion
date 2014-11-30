@@ -35,17 +35,13 @@
 					"href":"schulen.html"
 				},
 				{
-					"text":"Individuelle Hilfe",
-					"href":"individuelle-hilfe.html"
-				},
-				{
 					"text":"Hostel",
 					"href":"hostel.html"
 				}
 			]
 		},
 		{
-			"text":"Spenden",
+			"text":"Helfen!",
 			"id":"m-donate",
 			"items": [
 				{

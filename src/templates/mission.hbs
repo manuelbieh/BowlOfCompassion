@@ -15,11 +15,18 @@ category: p-idea
 
 		<div class="row">
 
-			<div class="col w8">
+			<div class="col w12">
 				<h1>{{headline}}</h1>
+			</div>
+
+			<div class="col w8">
 				{{#each paragraphs}}
 				<p>{{{.}}}</p>
 				{{/each}}
+			</div>
+
+			<div class="col w4 phone-4">
+				<img src="{{img.[0].src}}">
 			</div>
 
 		</div>

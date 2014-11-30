@@ -62,13 +62,24 @@
 				}
 			}
 
-			li:hover,
+			li:hover {
+				> a, > span {
+					@include respond-to(tablet-and-above) {
+						color: #222;
+					}
+				}
+			}
+
 			li.active {
-				> a,
-				> span {
+				> a, > span {
 					color: #222;
 				}
 			}
+
+			li a:active {
+				color: #222;
+			}
+
 
 			// li:hover > a,
 			// li:hover > span,
@@ -94,6 +105,23 @@
 			}
 		}
 	}
+}
+
+@media #{$mq-tablet} {
+
+	#topbar {
+		height: 60px;
+		nav {
+			padding-top: 0;
+			> ul li {
+				a, span {
+					line-height: 60px;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
 }
 
 @media #{$mq-phone} {

@@ -5,7 +5,7 @@
 	box-shadow: 0 0 2px 0px black;
 	border-radius: 4px;
 	height: 192px;
-	left: 0px;
+	left: 16px;
 	margin-top: 20px;
 	position: absolute;
 	// top: 90px;
@@ -22,6 +22,14 @@
 
 #logo h1 {
 	display: none;
+}
+
+#mobile-logo {
+	left: 0;
+	height: 64px;
+	position: absolute;
+	top: 0;
+	width: 270px;
 }
 
 .home {

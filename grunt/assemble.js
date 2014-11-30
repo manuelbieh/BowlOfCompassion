@@ -15,9 +15,13 @@ module.exports = function(grunt) {
 		de: {
 			options: {
 				data: [
-					'<%= config.dirs.src %>/templates/data/de/**/*.{json,yml}',
-					'<%= config.dirs.src %>/templates/data/shared/**/*.{json,yml}'
-				]
+					'<%= config.dirs.src %>/templates/data/shared/**/*.{json,yml}',
+					'<%= config.dirs.src %>/templates/data/de/**/*.{json,yml}'
+				],
+				partials: [
+					'<%= config.dirs.src %>/templates/partials/shared/**/*.hbs',
+					'<%= config.dirs.src %>/templates/partials/de/**/*.hbs'
+				],
 			},
 			files: [
 				{
@@ -33,9 +37,13 @@ module.exports = function(grunt) {
 		en: {
 			options: {
 				data: [
-					'<%= config.dirs.src %>/templates/data/en/**/*.{json,yml}',
-					'<%= config.dirs.src %>/templates/data/shared/**/*.{json,yml}'
-				]
+					'<%= config.dirs.src %>/templates/data/shared/**/*.{json,yml}',
+					'<%= config.dirs.src %>/templates/data/en/**/*.{json,yml}'
+				],
+				partials: [
+					'<%= config.dirs.src %>/templates/partials/shared/**/*.hbs',
+					'<%= config.dirs.src %>/templates/partials/en/**/*.hbs'
+				],
 			},
 			files: [
 				{

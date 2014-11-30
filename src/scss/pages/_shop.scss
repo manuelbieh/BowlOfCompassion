@@ -1,16 +1,61 @@
 .shopgrid {
-	.w3:nth-child(4n+1) {
-		clear: both;
+
+	@include respond-to(desktop) {
+		.w3:nth-child(4n+1) {
+			clear: both;
+		}
 	}
+
+	@include respond-to(tablet) {
+		.tablet-4:nth-child(3n+1) {
+			clear: left;
+		}
+	}
+
 	.item {
+
 		margin-bottom: 24px;
 		min-height: 256px;
-		@include respond-to($mq-phone) {
-			margin-bottom: 12px;
+
+		@include respond-to(phone) {
+			// margin-bottom: 12px;
 			min-height: 128px;
+			padding-bottom: 24px;
+			border-bottom: 1px solid $button-face;
 		}
+
 		h3 {
-			min-height: 2em;
+			min-height: 2.5em;
 		}
+
+		@include respond-to(desktop) {
+
+			padding: 8px 16px 16px 16px;
+			margin: -8px 24px 8px -8px;
+
+			&:not(:first-child):hover {
+				background: #f0f0f0;
+				box-shadow: 0 0 20px -9px black;
+				position: relative;
+				z-index: 10;
+			}
+
+		}
+
 	}
+
+	.item-img {
+
+		max-width: 100%;
+		max-height: 256px;
+		display: block;
+		margin: auto;
+		margin-bottom: 16px;
+
+		@include respond-to (phone) {
+			display: inline-block;
+		}
+
+	}
+
 }

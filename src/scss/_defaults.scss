@@ -5,6 +5,7 @@
 
 html, body {
 	height: 100%;
+	-webkit-text-size-adjust: 100%
 }
 
 body {
@@ -25,10 +26,20 @@ p {
 	margin-bottom: 1.25em;
 }
 
+a {
+	color: $link-color;
+	text-decoration: none;
+}
+
 button, input[type="button"], input[type="submit"], .button {
 
+	-webkit-appearance:none;
+	appearance: none;
+	background-image: none;
 	background: $button-face;
 	border: 0;
+	border-radius: 0;
+	box-shadow: none;
 	color: $dark-color;
 	cursor: pointer;
 	display: inline-block;
@@ -54,6 +65,14 @@ button, input[type="button"], input[type="submit"], .button {
 
 }
 
+input {
+	font: inherit;
+}
+
+input[type="text"] {
+	padding: 8px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -67,7 +86,8 @@ q {
 }
 
 #wrapper {
-	min-height: 100%;
+	min-height: 80%;
+	min-height: calc(100% - 320px);
 	position: relative;
 }
 

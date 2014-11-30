@@ -12,7 +12,9 @@ category: p-idea
 {{#with idea}}
 	<div class="wrapper minigrid">
 
-		<h1>{{headline}}</h1>
+		<div class="col w12">
+			<h1>{{headline}}</h1>
+		</div>
 
 		<div class="col w8">
 			{{#each paragraphs}}
@@ -23,7 +25,7 @@ category: p-idea
 		<div class="col w4 phone-4">
 			{{#each img}}
 			<div class="col
-				{{#compare size "half"}}w6{{/compare}}
+				{{#compare size "half"}}w6 phone-2{{/compare}}
 				{{#compare size "full"}}w12{{/compare}}">
 				<img src="{{src}}">
 			</div>
