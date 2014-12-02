@@ -26,6 +26,7 @@
 
   @else if $media == desktop {
     @media #{$mq-desktop} { @content; }
+    @media #{$mq-desktop-xl} { @content; }
   }
 
 }

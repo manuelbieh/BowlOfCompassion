@@ -4,12 +4,12 @@
 		"home": {
 			"filename":"index.html",
 			"title": "Startseite",
-			"link-en": "../en/index.html"
+			"link-de": "../de/index.html"
 		},
 		"about-us": {
 			"filename":"about-us.html",
 			"title": "About us",
-			"link-en": "../de/ueber-uns.html",
+			"link-de": "../de/ueber-uns.html",
 			"active": ["about-us.html"]
 		}
 	}

@@ -4,7 +4,8 @@ module.exports.register = function (Handlebars, options)  {
 
 	if(meta) {
 
-		this.page = meta;
+		// this.page = meta;
+		this.pagemeta = meta;
 
 		if(this.menu && this.menu.items) {
 

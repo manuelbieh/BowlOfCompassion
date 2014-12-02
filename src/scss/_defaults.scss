@@ -29,6 +29,9 @@ p {
 a {
 	color: $link-color;
 	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 button, input[type="button"], input[type="submit"], .button {
@@ -71,6 +74,10 @@ input {
 
 input[type="text"] {
 	padding: 8px;
+}
+
+select {
+	outline: none;
 }
 
 img {

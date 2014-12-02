@@ -9,19 +9,28 @@ category: p-donations-shop
 
 <div class="content">
 
+{{#with donations-shop}}
+
 	<div class="wrapper minigrid shopgrid">
 
-		{{#each donations-shop.items}}
+		<div class="col w12">
+			<h1>{{headline}}</h1>
+			<p>{{{paragraphs.[0]}}}</p>
+		</div>
 
+		<div class="row">
+		{{#each items}}
+
+			{{#unless inactive}}
 			<div class="col w3 phone-4 tablet-4 item">
 
-				{{#if headline}}
-					<h1>{{headline}}</h1>
+{{!--
+ 				{{#if headline}}
 					<p>{{{text}}}</p>
 				{{else}}
-
+ --}}
 				<h3>{{title}}</h3>
-				<h4 class="is-greyed">{{price}} EUR</h4>
+				<h4 class="is-greyed">{{price}} {{../../../locale.currency}}</h4>
 				<img src="{{#if img}}{{img}}{{else}}img/icons/no-img.png{{/if}}" class="item-img" alt="">
 
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -30,6 +39,18 @@ category: p-donations-shop
 					{{> _paypal-form-de}}
 					--}}
 					{{/with}}
+					<select name="quantity">
+						<option value="1" selected>1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
 					<input type="submit" value="Jetzt spenden!" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<input type="hidden" name="cmd" value="_xclick">
 					<input type="hidden" name="business" value="mail@bowlofcompassion.org">
@@ -46,11 +67,17 @@ category: p-donations-shop
 					<!--<input type="submit" value="Jetzt kaufen" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">-->
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form>
-				{{/if}}
+{{!-- 				{{/if}} --}}
 			</div>
 
+			{{/unless}}
+
 		{{/each}}
+		</div>
 
 	</div>
+
+{{/with}}
+
 </div>
 

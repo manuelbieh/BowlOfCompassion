@@ -1,18 +1,13 @@
 {
 	"headline": "Spendenshop",
-	"block-01": {
-		"paragraphs": [
-
-		]
-	},
+	"paragraphs": [
+		"Zweckgebunden spenden, ganz einfach. Wähle einfach aus der Liste aus was du spenden möchtest und bezahle unkompliziert über Paypal."
+	],
+	"currency": "EUR",
 	"items": [
 		{
-			"headline":"Spendenshop",
-			"text":"Zweckgebunden spenden, ganz einfach. Wähle einfach aus der Liste aus was du spenden möchtest und bezahle unkompliziert über Paypal."
-		},
-		{
 			"title":"Ein Paket Schulmaterial",
-			"price":"0.00",
+			"price":"15.00",
 			"img":"img/shop/schoolstuff.jpg",
 			"text":""
 		},
@@ -59,15 +54,15 @@
 			"text":""
 		},
 		{
-			"title":"Ein Paket Bücher für die Schulbibliothek",
-			"price":"0.00",
+			"title":"Ein großes Paket Bücher für die Schulbibliothek",
+			"price":"200.00",
 			"img":"img/shop/schoolbooks.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein Monatsration für eine Person für die Suppenküche",
-			"price":"0.00",
-			"img":"",
+			"title": "Ein Set aus Pullover und Mütze für den Winter",
+			"price": "7.00",
+			"img":"img/shop/sweater.jpg",
 			"text":""
 		},
 		{
@@ -86,13 +81,15 @@
 			"title":"Ein Stromgenerator",
 			"price":"0.00",
 			"img":"",
-			"text":""
+			"text":"",
+			"inactive": true
 		},
 		{
 			"title":"Ein Wasserbrunnen",
 			"price":"0.00",
 			"img":"",
-			"text":""
+			"text":"",
+			"inactive": true
 		}
 	]
 }

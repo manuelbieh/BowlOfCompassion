@@ -64,7 +64,7 @@
 		},
 		{
 			"text":"Kontakt",
-			"class": "contact",
+			"class": "m-contact",
 			"href":"kontakt.html"
 		}
 	]

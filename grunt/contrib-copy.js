@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 				cwd: '<%= config.dirs.src %>',
 				dest: '<%= config.dirs.dist %>/htdocs',
 				src: [
-					'*.html',
+					'*.{html,php}',
 					'{,*/}*.{ico,png,txt,json}',
 					'.htaccess',
 					'img/**/*.{webp,gif,GIF,jpeg,png,jpg}',
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 				cwd: '<%= config.dirs.src %>',
 				dest: '<%= config.dirs.dist %>/htdocs',
 				src: [
-					'*.html',
+					'*.{html,php}',
 					'{,*/}*.{ico,png,txt,json}',
 					'.htaccess',
 					'img/**/*.{webp,gif,GIF,jpeg,png,jpg}',

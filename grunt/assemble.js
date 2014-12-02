@@ -3,10 +3,10 @@ module.exports = function(grunt) {
 	grunt.config('assemble', {
 
 		options: {
-			assets: 'assets',
+			assets: '<%= config.dirs.dist %>/htdocs',
 			plugins: ['permalinks'],
 			helpers: '<%= config.dirs.src %>/templates/helpers/*.js',
-			partials: ['<%= config.dirs.src %>/templates/partials/**/*.hbs'],
+			partials: ['<%= config.dirs.src %>/templates/partials/shared/**/*.hbs'],
 			layout: 'default.hbs',
 			layoutdir: '<%= config.dirs.src %>/templates/layouts/',
 			data: ['<%= config.dirs.src %>/templates/data/{de,shared}/**/*.{json,yml}']

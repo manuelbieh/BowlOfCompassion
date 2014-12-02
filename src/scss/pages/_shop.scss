@@ -14,8 +14,14 @@
 
 	.item {
 
+		border-bottom: 1px solid $grey-color;
 		margin-bottom: 24px;
 		min-height: 256px;
+		padding-bottom: 16px;
+
+		// &:first-child {
+		// 	border: 0;
+		// }
 
 		@include respond-to(phone) {
 			// margin-bottom: 12px;
@@ -28,13 +34,27 @@
 			min-height: 2.5em;
 		}
 
+		select {
+			font: inherit;
+			font-weight: 600;
+			font-size: 20px;
+			height: 43px;
+			vertical-align: top;
+		}
+
+		input[type="submit"] {
+			vertical-align: middle;
+			height: 43px;
+		}
+
 		@include respond-to(desktop) {
 
 			padding: 8px 16px 16px 16px;
 			margin: -8px 24px 8px -8px;
 
-			&:not(:first-child):hover {
-				background: #f0f0f0;
+			// &:not(:first-child):hover {
+			&:hover {
+				// background: #f0f0f0;
 				box-shadow: 0 0 20px -9px black;
 				position: relative;
 				z-index: 10;
