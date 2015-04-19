@@ -1,0 +1,21 @@
+{
+	"headline": "The soup kitchen",
+	"block-01": {
+		"paragraphs": [
+			"The project as it is today was born from the simple idea of starting up a soup kitchen in India. Since 2009 we have been serving warm meals to the homeless people in Bodhgaya, Bihar (North India).",
+			"These meals are prepared in our school kitchen and all dishes are vegetarian Indian curries mostly served with Indian bread (chapati, roti or puri ) or rice. For 5 Euros per month we are capable of providing a daily warm meal for one person for a whole month.",
+			"Our cook Sushma has been with us since the beginning of the project. She is doing her best to serve food to our children and guests at the soup kitchen and primary school. Through generous international donations we have served more than 140000 meals since 2009."
+		],
+		"img": [
+			{
+				"src":"img/content/sushma-01b.jpg"
+			},
+			{
+				"src":"img/content/lunch-02.jpg"
+			}
+		]
+	},
+	"sidebar":{
+		"img":"img/content/sushma-01.jpg"
+	}
+}

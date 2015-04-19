@@ -1,0 +1,33 @@
+{
+	"headline": "Company donations",
+	"block-01": {
+		"paragraphs": [
+
+			"Corporate Social Responsibility with only a few mouseclicks: Support our organization with a business donation!",
+
+			"Bowl of Compassion e.V. is an officially established non-profit organization based in Germany which is acknowledged by the local finance office. Therefore we are capable of providing you with a donation receipt within a few days. Please contact our accountant.",
+
+			"You can choose whether you would like to donate on a regular basis or if you want to make a one-time contribution. Through a donation starting from 250 Euro we can upload your Logo with a link to your business on our website for 12 months.",
+
+			"For donations starting from 1000 Euros we will offer you a permanent space on our website and introduce your business to our Facebook Fanpage. We also offer you the option of hanging a banner with your Logo on one of our classroom walls. Please contact us at mail@bowlofcompassion.org for more information."
+
+		]
+	},
+	"sidebar": {
+		"headline": "Our partners"
+	},
+	"partners": [
+		{
+			"title":"wiremore",
+			"description":"",
+			"img":"img/companies/wiremore.svg",
+			"href":"http://www.wiremore.com/"
+		},
+		{
+			"title":"AWO Dortmund",
+			"description":"",
+			"img":"img/companies/awoww_logo.gif",
+			"href":"http://www.awo-dortmund.de/"
+		}
+	]
+}

@@ -10,6 +10,7 @@
 	.year {
 
 		text-align: right;
+		overflow: visible;
 
 		@include respond-to(tablet-portrait) {
 			text-align: left;

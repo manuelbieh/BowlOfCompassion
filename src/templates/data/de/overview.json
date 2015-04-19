@@ -1,22 +1,22 @@
 {
 	"mission": {
-		"headline":"Unsere Mission",
+		"headline":"Our mission",
 		"img":"img/icons/reach.png",
-		"text": "Wir möchten helfen. Dort, wo es dringend nötig ist. Den Menschen, die Hilfe dringend benötigen."
+		"text": "To provide help where it is most needed. Since 2008 we have helped individuals in great need and gave them an educational foundation."
 	},
 	"education": {
-		"headline":"Schulbildung",
+		"headline":"Education",
 		"img":"img/icons/learn.png",
-		"text": "Hilfe zur Selbsthilfe: wir ermöglichen kastenlosen Kindern eine Schulbildung – natürlich mit Option auf einen anerkannten Highschool-Abschluss!"
+		"text": "Help for self help. We help children from poor backgrounds to achieve a high school degree!"
 	},
 	"meals": {
-		"headline":"Warme Mahlzeiten",
+		"headline":"Warm meals",
 		"img":"img/icons/eat.png",
-		"text": "Lernen lässt es sich schwer ohne etwas im Magen. Daher bieten wir all unseren Kindern, ebenso wie armen, alten und gebrechlichen Menschen eine warme Mahlzeit."
+		"text": "Studying is difficult with an empty stomach. We provide a daily warm meal to our students as well as to the elderly and fragile guests that visit our soup kitchen"
 	},
 	"donate": {
-		"headline":"Jetzt spenden!",
+		"headline":"Help now!",
 		"img":"img/icons/give.png",
-		"text": "Wir finanzieren uns zum überwiegenden Teil aus Spenden. Dafür sind wir auch auf deine Hilfe angewiesen!"
+		"text": "A big part of the project was realized through donations and voluntary work. That’s why we need your help. Participate now and help make big changes through a donation."
 	}
 }

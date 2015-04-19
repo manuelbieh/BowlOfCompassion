@@ -1,0 +1,40 @@
+{
+	"headline": "Our schools",
+	"paragraphs": [
+		"In order give our children a successful educational path, we not only provide them with food but also offer them a free education in our established primary schools. The schools are located in two villages in Bihar, which is one of the poorest states of India. Our children’s parents were not privileged to have access to education when they were young, this is why we established this NGO, to create for them an opportunity for a brighter future through education. We want give our children the tools they need to become the new generation of educated untouchables."
+	],
+	"quote": "<q>Give a man a fish and you feed him for a day;<br> teach a man to fish and you feed him for a lifetime</q><br> – Maimonides",
+	"img": {
+		"src":"img/content/school-03.jpg"
+	},
+	"block-01": {
+		"headline":"The “A Bowl of Compassion” Primary School",
+		"paragraphs": [
+			"The “A Bowl of Compassion Primary School” in Tika Bigha, Bodhgaya first opened its doors for children in need on November of 2009. All of our children belong to families in great need which live in the village of Tika Bigha. Most of them live in simple mud houses without access to electricity or running water. Since their parents grew up without education the probability of them finding work is very low. In order to survive, many families send their children to beg or to work in hard physical labor jobs.",
+			"At “A Bowl of Compassion” we provide free education and a daily warm meal as well as support to fulfill the children’s educational dreams. Furthermore, we work hand in hand with the Siddartha Compassion High school which is also located in Tika Bigha Village. All of our children have an opportunity to enroll at this High school after they have passed their final exams.",
+			"All this work was has been made possible through our international sponsors. At the current moment we have 120 students enrolled at our primary school"
+		],
+		"img": [
+			{
+				"src":"img/content/school-01.jpg"
+			},
+			{
+				"src":"img/content/school-02.jpg"
+			}
+		]
+	},
+	"block-02": {
+		"headline":"The “Flowers of Lakshmi Girlsschool” in Karma Village",
+		"paragraphs":[
+			"In the year of 2014 we started a girls’ school in the neighboring Karma Village.  At the moment we have 20 students enrolled. The lessons are currently held in simple rented rooms and we are hoping to reach our goal of building our own small school for the girls in 2015."
+		],
+		"img": [
+			{
+				"src":"img/content/school-04.jpg"
+			},
+			{
+				"src":"img/content/school-05.jpg"
+			}
+		]
+	}
+}

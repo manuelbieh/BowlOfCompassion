@@ -13,6 +13,12 @@ body {
 	color: $dark-color;
 	font-family: Dosis, Arial, Helvetica, Sans-Serif;
 	font-size: 20px;
+	@include respond-to(phone) {
+		font-size: 16px;
+	}
+	@include respond-to(tablet) {
+		font-size: 18px;
+	}
 	line-height: 1.75em;
 }
 
@@ -32,6 +38,14 @@ a {
 	&:hover {
 		text-decoration: underline;
 	}
+}
+
+code {
+	background: #eee;
+	border-radius: 2px;
+	font-family: Courier New, Courier, Monospace;
+	font-size: 16px;
+	padding: 4px;
 }
 
 button, input[type="button"], input[type="submit"], .button {
@@ -100,11 +114,4 @@ q {
 
 .text-inverse {
 	color: $light-color;
-}
-
-
-@media #{$mq-tablet-and-below} {
-	body {
-		font-size: 16px;
-	}
 }

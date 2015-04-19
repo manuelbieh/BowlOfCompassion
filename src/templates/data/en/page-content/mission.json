@@ -1,0 +1,68 @@
+{
+	"headline": "Our mission",
+	"paragraphs": [
+		"It is not only the struggle for nutrition that homeless people in India are facing. The cast system is banning these individuals from every level of society and calling them untouchables or Dalits.",
+		"They are usually avoided by families of higher casts who believe that it is their destiny to be born as untouchables due to their actions of their past lives.  Through this belief system they are obligated to work off their bad karma in the present lifetime, thus becoming outcasts in society.",
+		"Our Mission is to help these families by setting up schools where we provide education to the children of the surrounding villages of Bodhgaya. We want to offer them an environment in which they are treated as equal individuals and one in which they do not get judged based on their cast.",
+		"<strong>Providing free warm meals is also a part of our mission. This is why we are also actively running a mobile soupkitchen on the streets of Bodhgaya.</strong>"
+	],
+	"img": [
+		{
+			"src":"img/content/soupkitchen-01.jpg",
+			"size": "half"
+		},
+		{
+			"src":"img/content/school-02.jpg",
+			"size": "half"
+		},
+		{
+			"src":"img/content/lunch-01.jpg",
+			"size": "full"
+		}
+	],
+	"--block-01": {
+		"headline":"Bewusstsein und Selbstvertrauen",
+		"paragraphs": [
+			"A Bowl of Compassion e.V. möchte durch die Etablierung einer Armenküche nicht nur Menschen abfüttern, wie oftmals kritisiert wird, sondern einen Raum bieten, in dem kastenlose Inder als vollwertige Menschen wahrgenommen werden. Wir möchten einen Platz schaffen, wo Menschen, unabhängig von Religion, Kaste, Geschlecht oder Herkunft akzeptiert und angenommen werden.",
+			"Im Selbstkonzept dieser Menschen ist tiefer Minderwert verwurzelt. Wir möchten ihnen vermitteln: „Du bist wertvoll und liebenswert!“"
+		],
+		"img": [
+			{
+				"src":"img/content/lunch-02.jpg",
+				"size": "half"
+			},
+			{
+				"src":"img/content/construction-01.jpg",
+				"size": "half"
+			}
+		]
+	},
+	"--block-02": {
+		"headline":"Ressourcenorientiertes Arbeiten und Schulbildung",
+		"paragraphs": [
+			"Wir möchten mehr tun als nur Essen austeilen. Eine Schulausbildung ist für kastenlose Kinder ein grosses Privileg. Unsere Räumlichkeiten vor Ort bieten einen idealen Platz, um unseren Kindern ergänzend zur Essensausgabe eine Schulausbildung zu ermöglichen. Die Kinder werden von studierten Lehrkräften, sowie einem Erzieher betreut und erhalten während der Schulzeit freie Mahlzeiten und Getränke. In den Pausen können sich die Kinder an diversen Spielsachen wie Kricket-Sets, Fussbällen, Springseilchen,Frisbees usw bedienen. Freiwillige aus aller Welt arbeiten ebenfalls bei uns mit und stellen eine weitere Bereicherung für den Schulalltag der Kinder dar, denn so können unsere Kinder ihre Englischkenntnisse permanent auf die Probe stellen. Volontäre werden ebenfalls frei verköstigt und können für umgerechnet 1,30 Euro in unseren bereitgestellten Gästezimmer oder Strohhütten nächtigen.",
+			"Unsere Erwachsenen beehren uns in den Abendstunden mit Ihrem Besuch! Für sie gibt es ein freies Mahl, sowie individuelle Gespräche über Zukunftsperspektiven. Dabei steht das ressourcenorientierte Arbeiten für uns im Vordergrund. Viele dieser bedüftigen Menschen haben einmal eine Arbeit verrichtet und es bedarf lediglich einer kleinen Starthilfe, damit sie wieder Fuß auf dem Arbeitsmarkt fassen können. Durch die Anschaffung einer Nähmaschine, kann sich beispielsweise eine erfahrene Frau Ihren Lebensunterhalt verdienen. Ein anerkannter Mönch des Dorfes schaut auch gelegentlich bei uns herein und führt Gespräche mit den obdachlosen Menschen."
+		],
+		"img": [
+			{
+				"src":"img/content/school-03.jpg",
+				"size": "full"
+			}
+		]
+	},
+	"block-01": {},
+	"block-02": {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

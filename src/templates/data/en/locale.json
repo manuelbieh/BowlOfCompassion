@@ -1,0 +1,14 @@
+{
+	"lang": "en_US",
+    "lc": "EN",
+	"currency": "USD",
+	"currency-symbol": "$",
+    "bank-account": {
+        "headline": "Donations",
+        "account": false,
+        "bank-code": false,
+        "bank-name": false,
+        "iban": "IBAN",
+        "bic": "BIC"
+    }
+}

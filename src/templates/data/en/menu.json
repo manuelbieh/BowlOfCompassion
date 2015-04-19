@@ -2,66 +2,73 @@
 	"items": [
 		{
 			"text":"About us",
-			"href":"#1",
+			"id":"m-about",
+			"href": "idea.html",
 			"items": [
 				{
-					"text":"Idee",
-					"href":"#Idee"
+					"text":"The idea",
+					"href":"idea.html"
 				},
 				{
-					"text":"Mission",
-					"href":"#mission"
+					"text":"Our mission",
+					"href":"mission.html"
 				},
 				{
-					"text":"Chronik",
-					"href":"#chronik"
+					"text":"Chronicle",
+					"href":"chronicle.html"
+				},
+				{
+					"text":"Financing",
+					"href":"financing.html"
 				}
 			]
 		},
 		{
 			"text":"The Project",
-			"href":"#2",
+			"id":"m-project",
+			"href": "soupkitchen.html",
 			"items": [
 				{
-					"text":"Suppenküche",
-					"href":"#"
+					"text":"Soupkitchen",
+					"href":"soupkitchen.html"
 				},
 				{
-					"text":"Schulen",
-					"href":"#"
-				},
-				{
-					"text":"Berufseinstieg",
-					"href":"#"
+					"text":"Schools",
+					"href":"schools.html"
 				},
 				{
 					"text":"Hostel",
-					"href":"#"
+					"href":"hostel.html"
 				}
 			]
 		},
 		{
-			"text":"Donate!",
-			"href":"#3",
+			"text":"You can help!",
+			"id": "m-donate",
+			"href": "donate.html",
 			"items": [
 				{
-					"text":"Spendenshop",
-					"href":"#"
+					"text":"Donate now",
+					"href":"donate.html"
 				},
 				{
-					"text":"Pate werden",
-					"href":"#"
+					"text":"Donation shop",
+					"href":"donationshop.html"
 				},
 				{
 					"text":"Sponsoring",
-					"href":"#"
+					"href":"sponsoring.html"
+				},
+				{
+					"text":"Companies",
+					"href":"companies.html"
 				}
 			]
 		},
 		{
 			"text":"Contact",
 			"class": "contact",
-			"href":"#4"
+			"href":"contact.html"
 		}
 	]
 }

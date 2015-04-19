@@ -1,0 +1,18 @@
+{
+	"headline": "Donations",
+	"paragraphs": [
+		"There are several ways you can support our work in India. As an officially established non-profit organization we are able to hand out donation receipts that you can use for your tax declarations. To receive a donation receipt please let us know in advance so we can provide it on time. A Bowl of Compassion is run by volunteers who also have professional jobs. Sometimes it may take a few days before you receive your donation receipt. Thank you for your patience."
+	],
+	"block-01": {
+		"headline":"Bank Account",
+		"paragraphs": [
+			"<strong>BIC:</strong> DORTDE33XXX<br><strong>IBAN:</strong> DE87440501990911001802"
+		]
+	},
+	"block-02": {
+		"headline":"Recurring donation via PayPal"
+	},
+	"block-03": {
+		"headline":"Onetime donation via PayPal"
+	}
+}

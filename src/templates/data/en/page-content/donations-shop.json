@@ -1,78 +1,78 @@
 {
-	"headline": "Spendenshop",
+	"headline": "Donation shop",
 	"paragraphs": [
-		"Zweckgebunden spenden, ganz einfach. Suche einfach aus der Liste aus was du spenden möchtest, wähle die Anzahl und bezahle unkompliziert über Paypal. Nach dem Klick auf den Spenden-Button wirst du zu PayPal weitergeleitet um den Spendenprozess abzuschließen.<br><br>"
+		"Our online shop makes it easy to help directly with donations through PayPal. Just choose what you would like to support our project with from the listed items below. You will be directed to Paypal after you have clicked the donation button.<br><br>"
 	],
-	"currency": "EUR",
+	"currency": "USD",
 	"items": [
 		{
-			"title":"Ein Paket Schulmaterial",
+			"title":"A package of school supplies",
 			"price":"15.00",
 			"img":"img/shop/schoolstuff.jpg",
 			"text":""
 		},
 		{
-			"title":"Eine Schultasche",
+			"title":"A school bag",
 			"price":"10.00",
 			"img":"img/shop/schoolbag.jpg",
 			"text":""
 		},
 		{
-			"title":"Eine Schuluniform",
+			"title":"A school uniform",
 			"price":"12.00",
 			"img":"img/tmp/shop-uniform.jpg",
 			"text":""
 		},
 		{
-			"title":"Eine warme Decke für Obdachlose im Winter",
+			"title":"A warm blanket for homeless people",
 			"price":"10.00",
 			"img":"img/shop/blanket.jpg",
 			"text":""
 		},
 		{
-			"title":"Eine Schultafel",
+			"title":"A chalkboard",
 			"price":"25.00",
 			"img":"img/shop/schoolboard.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein Computer für die Schule",
+			"title":"A computer for our schools",
 			"price":"300.00",
 			"img":"img/shop/computer.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein Paket Spielsachen für die Schule",
+			"title":"A package of toys",
 			"price":"20.00",
 			"img":"img/shop/toys.jpg",
 			"text":""
 		},
 		{
-			"title":"Utensilien für die Schulküche",
+			"title":"A package of kitchen tools",
 			"price":"20.00",
 			"img":"img/shop/kitchenstuff.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein großes Paket Bücher für die Schulbibliothek",
+			"title":"A big package of books for our school library",
 			"price":"200.00",
 			"img":"img/shop/schoolbooks.jpg",
 			"text":""
 		},
 		{
-			"title": "Ein Set aus Pullover und Mütze für den Winter",
+			"title": "A package of clothes for the winter",
 			"price": "7.00",
 			"img":"img/shop/sweater.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein neuer Klassenraum für die Karma-Mädchenschule",
+			"title":"A whole new classroom for our Karma girls' school",
 			"price":"1300.00",
 			"img":"img/shop/classroom.jpg",
 			"text":""
 		},
 		{
-			"title":"Ein Ventilator für den Klassenraum inkl. Installation",
+			"title":"A fan for one of our classrooms",
 			"price":"40.00",
 			"img":"img/shop/fan.jpg",
 			"text":""

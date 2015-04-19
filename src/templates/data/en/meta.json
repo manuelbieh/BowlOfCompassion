@@ -3,14 +3,104 @@
 		"language": "en",
 		"home": {
 			"filename":"index.html",
-			"title": "Startseite",
+			"title": "Homepage",
 			"link-de": "../de/index.html"
 		},
 		"about-us": {
 			"filename":"about-us.html",
 			"title": "About us",
 			"link-de": "../de/ueber-uns.html",
-			"active": ["about-us.html"]
+			"active": ["m-about"]
+		},
+		"idea": {
+			"filename":"idea.html",
+			"title": "The idea",
+			"link-de": "../de/idee.html",
+			"active": ["m-about", "idea.html"]
+		},
+		"mission": {
+			"filename":"mission.html",
+			"title": "Our mission",
+			"link-de": "../de/mission.html",
+			"active": ["m-about", "mission.html"]
+		},
+		"chronicle": {
+			"filename":"chronicle.html",
+			"title": "Chronicle",
+			"link-de": "../de/chronik.html",
+			"active": ["m-about", "chronicle.html"]
+		},
+		"financing": {
+			"filename":"financing.html",
+			"title": "Financing",
+			"link-de": "../de/finanzierung.html",
+			"active": ["m-about", "financing.html"]
+		},
+		"project": {
+			"filename":"project.html",
+			"title": "Project",
+			"link-de": "../de/projekt.html",
+			"active": ["m-project"]
+		},
+		"soupkitchen": {
+			"filename":"soupkitchen.html",
+			"title": "Soupkitchen",
+			"link-de": "../de/suppenkueche.html",
+			"active": ["m-project", "soupkitchen.html"]
+		},
+		"schools": {
+			"filename":"schools.html",
+			"title": "Schools",
+			"link-de": "../de/schulen.html",
+			"active": ["m-project", "schools.html"]
+		},
+		"help": {
+			"filename":"individual-help.html",
+			"title": "Individual Help",
+			"link-de": "../de/individuelle-hilfe.html",
+			"active": ["m-project", "individual-help.html"]
+		},
+		"hostel": {
+			"filename":"hostel.html",
+			"title": "Hostel",
+			"link-de": "../de/hostel.html",
+			"active": ["m-project", "hostel.html"]
+		},
+		"donate": {
+			"filename":"donate.html",
+			"title": "Donate now!",
+			"link-de": "../de/spenden.html",
+			"active": ["m-donate", "donate.html"]
+		},
+		"donations-shop": {
+			"filename":"donationshop.html",
+			"title": "Donation shop",
+			"link-de": "../de/spendenshop.html",
+			"active": ["m-donate", "donationshop.html"]
+		},
+		"companies": {
+			"filename":"companies.html",
+			"title": "For companies",
+			"link-de": "../de/unternehmen.html",
+			"active": ["m-donate", "companies.html"]
+		},
+		"sponsoring": {
+			"filename":"sponsoring.html",
+			"title": "Sponsoring",
+			"link-de": "../de/patenschaft.html",
+			"active": ["m-donate", "sponsoring.html"]
+		},
+		"contact": {
+			"filename":"contact.html",
+			"title": "Contact",
+			"link-de": "../de/kontakt.html",
+			"active": ["contact.html"]
+		},
+		"legal": {
+			"filename":"legal-information.html",
+			"title": "Legal information",
+			"link-de": "../de/impressum.html",
+			"active": ["legal-information.html"]
 		}
 	}
 }

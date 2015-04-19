@@ -1,5 +1,14 @@
 {
 	"lang": "de_DE",
+    "lc": "DE",
 	"currency": "EUR",
-	"currency-symbol": "€"
+	"currency-symbol": "€",
+    "bank-account": {
+        "headline": "Spendenkonto",
+        "account": "Konto",
+        "bank-code": "Bankleitzahl",
+        "bank-name": "Stadtsparkasse Dortmund",
+        "iban": "IBAN",
+        "bic": "BIC"
+    }
 }

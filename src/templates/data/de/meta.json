@@ -75,7 +75,7 @@
 		"donations-shop": {
 			"filename":"spendenshop.html",
 			"title": "Spendenshop",
-			"link-en": "../en/donations-shop.html",
+			"link-en": "../en/donationshop.html",
 			"active": ["m-donate", "spendenshop.html"]
 		},
 		"companies": {

@@ -16,20 +16,22 @@ category: p-idea
 			<h1>{{headline}}</h1>
 		</div>
 
-		<div class="col w8">
+		<div class="col w8 tablet-12">
 			{{#each paragraphs}}
 			<p>{{{.}}}</p>
 			{{/each}}
 		</div>
 
-		<div class="col w4 phone-4">
+		<div class="col w4 phone-4 tablet-12">
+			<div class="row">
 			{{#each img}}
-			<div class="col
-				{{#compare size "half"}}w6 phone-2{{/compare}}
-				{{#compare size "full"}}w12{{/compare}}">
-				<img src="{{src}}">
-			</div>
+				<div class="col
+					{{#compare size "half"}}w6 phone-2{{/compare}}
+					{{#compare size "full"}}w12{{/compare}}">
+					<img src="{{src}}" class="full-width">
+				</div>
 			{{/each}}
+			</div>
 			<!--<div class="col w6">1</div>
 			<div class="col w6">2</div>
 			<div class="col w6">3</div>

@@ -1,0 +1,49 @@
+{
+	"headline": "Contact",
+	"block-01": {
+		"headline":"German address<br> (administrative office)",
+		"paragraphs": [
+			"<strong>A Bowl of Compassion e.V. Germany</strong><br>c/o Michael Saatkamp<br>Emkraft 5<br>44319 Dortmund<br>GERMANY"
+		]
+	},
+	"block-02": {
+		"headline":"Indian address",
+		"paragraphs": [
+			"<strong>A Bowl of Compassion e.V. India</strong><br>c/o Murari Singh<br>Kalyan House<br>Tika Bika Village<br>Bodh Gaya, Dist.Gaya, 824231 Bihar<br>INDIA"
+		]
+	},
+	"block-03": {
+		"headline":"Other contact opportunities",
+		"paragraphs": [
+			"<strong>Email:</strong> mail@bowlofcompassion.org<br><strong>Treasurer:</strong> kasse@bowlofcompassion.org",
+			"<strong>Facebook: <a href=\"https://www.facebook.com/bowlofcompassion.india\">/bowlofcompassion.india</a></strong>"
+		]
+	},
+	"team": {
+		"headline":"Team",
+		"items": [
+			{
+				"headline":"Michael Saatkamp",
+				"title": "Chairman",
+				"img": {
+					"src": "img/content/team/micha.jpg"
+				}
+			},
+			{
+				"headline":"Murari Singh",
+				"title": "Organisation in India",
+				"img": {
+					"src": "img/content/team/murari.jpg"
+				}
+			},
+			{
+				"headline":"Marcel Fleitmann",
+				"title": "Treasurer",
+				"img": {
+					"src": "img/content/team/marcel.jpg"
+				}
+			}
+		]
+	}
+}
+
