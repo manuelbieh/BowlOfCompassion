@@ -1,4 +1,4 @@
-project-scaffold
-================
+bowl of compassion website
+==========================
 
-Project scaffolding
+Source of bowlofcompassion.org
