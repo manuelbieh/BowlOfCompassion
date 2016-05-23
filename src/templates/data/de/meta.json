@@ -4,7 +4,9 @@
 		"home": {
 			"filename":"index.html",
 			"title": "Startseite",
-			"link-en": "../en/index.html"
+			"link-en": "../en/index.html",
+			"description": "Bowl of Compassion Startseite",
+			"keywords": "Spenden, Charity, Indien, Armut"
 		},
 		"about-us": {
 			"filename":"ueber-uns.html",

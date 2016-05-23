@@ -39,6 +39,14 @@ module.exports.register = function (Handlebars, options)  {
 			this.title = meta.title;
 		}
 
+        if(typeof meta.description !== 'undefined') {
+			this.description = meta.description;
+		}
+
+        if(typeof meta.keywords !== 'undefined') {
+			this.keywords = meta.keywords;
+		}
+
 		if(typeof meta.filename !== 'undefined') {
 			this.pagination.index.dest = this.pagination.index.filePair.orig.dest + '/' + meta.filename
 		}

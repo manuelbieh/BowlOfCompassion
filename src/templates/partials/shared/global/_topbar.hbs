@@ -4,6 +4,8 @@
 	{{!-- <meta property="og:description" content="{{label.description}}"> --}}
 	<meta property="og:locale" content="{{label.locale}}">
 	<meta property="og:image" content="../img/logo.png">
+	{{#if description}}<meta name="description" content="{{description}}">{{/if}}
+	{{#if keywords}}<meta name="keywords" content="{{keywords}}">{{/if}}
 
 </head>
 
@@ -70,4 +72,3 @@
 			</a>
 		</div>
 	</div>
-
