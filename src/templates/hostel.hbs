@@ -10,20 +10,19 @@ category: p-hostel
 {{#with hostel}}
 <div class="content">
 
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w8">
-			<h1>{{headline}}</h1>
-			{{#each block-01.paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
+        <div class="col w8">
+            <h1>{{headline}}</h1>
+            {{#each block-01.paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
 
-		<div class="col w4 phone-4">
-			{{{tripadvisor}}}
-		</div>
+        <div class="col w4 phone-4">
+            {{{tripadvisor}}}
+        </div>
 
-	</div>
+    </div>
 </div>
 {{/with}}
-

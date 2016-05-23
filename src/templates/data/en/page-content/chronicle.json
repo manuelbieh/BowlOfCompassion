@@ -1,68 +1,66 @@
 {
-	"headline": "Chronik",
-	"block-01": {
-		"paragraphs": [
-			"We have already achieved a lot of goals since we began our project in 2008. All this has only been possible through the kind help of our donors and volunteers. Here is a (short!) overview of our most important milestones."
-		]
-	},
-	"sidebar": {
-		"img":"img/tmp/content01.jpg"
-	},
-	"items": [
-		{
-			"year":"2014",
-			"headline":"Opening of our second school",
-			"paragraphs": [
-				"The \"Flowers of Lakshmi Girls-School\" gets started in the neighbouring Karma Village. We are still renting the rooms for 20 girls. Our next big goal is to buy a piece of land and build a school for the children."
-			]
-		},
-		{
-			"year":"2013",
-			"headline":"A hostel for our volunteers gets built",
-			"paragraphs": [
-				"We got a donation from the United states and could build a classroom for our children. We started a small cafe next to our school, where guests of our hostel can eat, drink and socialize.",
-				"Our Hostel the \"Charity Backpackers\" is on the first place of the \"Tripadvisor\" website."
-			]
-		},
-		{
-			"year":"2012",
-			"headline":"New classrooms and 100 children in our primary school!",
-			"paragraphs": [
-				"We have 4 classrooms now. We are able to provide education to 80 children. The idea of a \"Charity Hostel\" was born. The intention was to be able to raise funds for our school within india to make it more self-sustainable. In this year we started the first constructions on the hostel and built a dormitory room with 10 beds. The first guest arrived shortly after and first funds came in."
-			]
-		},
-		{
-			"year":"2011",
-			"headline":"Second classroom and sewing workshops",
-			"paragraphs": [
-				"With the financial help of germans donors a second classroom could be built.",
-				"70 children are already visiting the primary school. Through another kind donation from germany we could buy an oven for our soupkitchen. In this year we started sewing workshops for that got visited by 40 young girls daily.",
-				"Our soupkitchen becomes mobile and warm meals got delivered on the streets of Bodhgaya."
-			]
-		},
-		{
-			"year":"2010",
-			"headline":"80 visitors in our soupkitchen daily and our first own cook",
-			"paragraphs": [
-				"In 2010 we had daily 40 female and 40 male visitors in our soupkitchen. We hired a  staff to cook daily meals for our children. A few weeks later we were able to hire 2 more teachers as well. We got a kind donation from germany and bought cow that provided milk for our students.The construction of a food corner for the school meals was built  too. First international volunteers were visiting the school and soupkitchen. They brought many good ideas with them. Two guest donated 2 guestrooms for the volunteers that also could be finished in the same year."
-			]
-		},
-		{
-			"year":"2009",
-			"headline":"Opening of our first school",
-			"paragraphs": [
-				"After being 7 months in Germany Michael travels back to India to begin with the project. In November Murari and him then built the first wall of the soupkitchen. Around 40-50 adults are coming for daily meals.",
-				"During this time they also started discussing about realising their idea of a building a primary school for needy children of the surrounding villages. Only some weeks later they put their idea into practise and established the \"A Bowl of Compassion-Primary School\" where 40 children started to study. At that time they only had one clasroom and one kitchen."
-			]
-		},
-		{
-			"year":"2008",
-			"headline":"An idea is born",
-			"paragraphs": [
-				"During his two year long journey through asia Michael Saatkamp met Murari Singh in Bodhgaya. They became good friends and decided to make a change for the unpriviliged village people of Bodhgaya. At this time the idea of a soupkitchen for homeless people was born. Michael travelled back to Germany and  established <strong>A Bowl of Compassion e.V</strong> with his friends. At this time all his friends and family helped him raising funds for the project."
-			]
-		}
-	]
+    "headline": "Chronik",
+    "block-01": {
+        "paragraphs": [
+            "We have already achieved a lot of goals since we began our project in 2008. All this has only been possible through the kind help of our donors and volunteers. Here is a (short!) overview of our most important milestones."
+        ]
+    },
+    "sidebar": {
+        "img":"img/tmp/content01.jpg"
+    },
+    "items": [
+        {
+            "year":"2014",
+            "headline":"Opening of our second school",
+            "paragraphs": [
+                "The \"Flowers of Lakshmi Girls-School\" gets started in the neighbouring Karma Village. We are still renting the rooms for 20 girls. Our next big goal is to buy a piece of land and build a school for the children."
+            ]
+        },
+        {
+            "year":"2013",
+            "headline":"A hostel for our volunteers gets built",
+            "paragraphs": [
+                "We got a donation from the United states and could build a classroom for our children. We started a small cafe next to our school, where guests of our hostel can eat, drink and socialize.",
+                "Our Hostel the \"Charity Backpackers\" is on the first place of the \"Tripadvisor\" website."
+            ]
+        },
+        {
+            "year":"2012",
+            "headline":"New classrooms and 100 children in our primary school!",
+            "paragraphs": [
+                "We have 4 classrooms now. We are able to provide education to 80 children. The idea of a \"Charity Hostel\" was born. The intention was to be able to raise funds for our school within india to make it more self-sustainable. In this year we started the first constructions on the hostel and built a dormitory room with 10 beds. The first guest arrived shortly after and first funds came in."
+            ]
+        },
+        {
+            "year":"2011",
+            "headline":"Second classroom and sewing workshops",
+            "paragraphs": [
+                "With the financial help of germans donors a second classroom could be built.",
+                "70 children are already visiting the primary school. Through another kind donation from germany we could buy an oven for our soupkitchen. In this year we started sewing workshops for that got visited by 40 young girls daily.",
+                "Our soupkitchen becomes mobile and warm meals got delivered on the streets of Bodhgaya."
+            ]
+        },
+        {
+            "year":"2010",
+            "headline":"80 visitors in our soupkitchen daily and our first own cook",
+            "paragraphs": [
+                "In 2010 we had daily 40 female and 40 male visitors in our soupkitchen. We hired a  staff to cook daily meals for our children. A few weeks later we were able to hire 2 more teachers as well. We got a kind donation from germany and bought cow that provided milk for our students.The construction of a food corner for the school meals was built  too. First international volunteers were visiting the school and soupkitchen. They brought many good ideas with them. Two guest donated 2 guestrooms for the volunteers that also could be finished in the same year."
+            ]
+        },
+        {
+            "year":"2009",
+            "headline":"Opening of our first school",
+            "paragraphs": [
+                "After being 7 months in Germany Michael travels back to India to begin with the project. In November Murari and him then built the first wall of the soupkitchen. Around 40-50 adults are coming for daily meals.",
+                "During this time they also started discussing about realising their idea of a building a primary school for needy children of the surrounding villages. Only some weeks later they put their idea into practise and established the \"A Bowl of Compassion-Primary School\" where 40 children started to study. At that time they only had one clasroom and one kitchen."
+            ]
+        },
+        {
+            "year":"2008",
+            "headline":"An idea is born",
+            "paragraphs": [
+                "During his two year long journey through asia Michael Saatkamp met Murari Singh in Bodhgaya. They became good friends and decided to make a change for the unpriviliged village people of Bodhgaya. At this time the idea of a soupkitchen for homeless people was born. Michael travelled back to Germany and  established <strong>A Bowl of Compassion e.V</strong> with his friends. At this time all his friends and family helped him raising funds for the project."
+            ]
+        }
+    ]
 }
-
-

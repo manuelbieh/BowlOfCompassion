@@ -1,108 +1,108 @@
 {
-	"meta": {
-		"language": "de",
-		"home": {
-			"filename":"index.html",
-			"title": "Startseite",
-			"link-en": "../en/index.html",
-			"description": "Bowl of Compassion Startseite",
-			"keywords": "Spenden, Charity, Indien, Armut"
-		},
-		"about-us": {
-			"filename":"ueber-uns.html",
-			"title": "Über uns",
-			"link-en": "../en/about-us.html",
-			"active": ["m-about"]
-		},
-		"idea": {
-			"filename":"idee.html",
-			"title": "Idee",
-			"link-en": "../en/idea.html",
-			"active": ["m-about", "idee.html"]
-		},
-		"mission": {
-			"filename":"mission.html",
-			"title": "Mission",
-			"link-en": "../en/mission.html",
-			"active": ["m-about", "mission.html"]
-		},
-		"chronicle": {
-			"filename":"chronik.html",
-			"title": "Chronik",
-			"link-en": "../en/chronicle.html",
-			"active": ["m-about", "chronik.html"]
-		},
-		"financing": {
-			"filename":"finanzierung.html",
-			"title": "Finanzierung",
-			"link-en": "../en/financing.html",
-			"active": ["m-about", "finanzierung.html"]
-		},
-		"project": {
-			"filename":"projekt.html",
-			"title": "Projekt",
-			"link-en": "../en/project.html",
-			"active": ["m-project"]
-		},
-		"soupkitchen": {
-			"filename":"suppenkueche.html",
-			"title": "Suppenküche",
-			"link-en": "../en/soupkitchen.html",
-			"active": ["m-project", "suppenkueche.html"]
-		},
-		"schools": {
-			"filename":"schulen.html",
-			"title": "Schulen",
-			"link-en": "../en/schools.html",
-			"active": ["m-project", "schulen.html"]
-		},
-		"help": {
-			"filename":"individuelle-hilfe.html",
-			"title": "Individuelle Hilfe",
-			"link-en": "../en/individual-help.html",
-			"active": ["m-project", "individuelle-hilfe.html"]
-		},
-		"hostel": {
-			"filename":"hostel.html",
-			"title": "Hostel",
-			"link-en": "../en/hostel.html",
-			"active": ["m-project", "hostel.html"]
-		},
-		"donate": {
-			"filename":"spenden.html",
-			"title": "Jetzt spenden!",
-			"link-en": "../en/donate.html",
-			"active": ["m-donate", "spenden.html"]
-		},
-		"donations-shop": {
-			"filename":"spendenshop.html",
-			"title": "Spendenshop",
-			"link-en": "../en/donationshop.html",
-			"active": ["m-donate", "spendenshop.html"]
-		},
-		"companies": {
-			"filename":"unternehmen.html",
-			"title": "Unternehmen",
-			"link-en": "../en/companies.html",
-			"active": ["m-donate", "unternehmen.html"]
-		},
-		"sponsoring": {
-			"filename":"patenschaft.html",
-			"title": "Patenschaft",
-			"link-en": "../en/sponsoring.html",
-			"active": ["m-donate", "patenschaft.html"]
-		},
-		"contact": {
-			"filename":"kontakt.html",
-			"title": "Kontakt",
-			"link-en": "../en/contact.html",
-			"active": ["kontakt.html"]
-		},
-		"legal": {
-			"filename":"impressum.html",
-			"title": "Impressum",
-			"link-en": "../en/legal-information.html",
-			"active": ["impressum.html"]
-		}
-	}
+    "meta": {
+        "language": "de",
+        "home": {
+            "filename":"index.html",
+            "title": "Startseite",
+            "link-en": "../en/index.html",
+            "description": "Bowl of Compassion Startseite",
+            "keywords": "Spenden, Charity, Indien, Armut"
+        },
+        "about-us": {
+            "filename":"ueber-uns.html",
+            "title": "Über uns",
+            "link-en": "../en/about-us.html",
+            "active": ["m-about"]
+        },
+        "idea": {
+            "filename":"idee.html",
+            "title": "Idee",
+            "link-en": "../en/idea.html",
+            "active": ["m-about", "idee.html"]
+        },
+        "mission": {
+            "filename":"mission.html",
+            "title": "Mission",
+            "link-en": "../en/mission.html",
+            "active": ["m-about", "mission.html"]
+        },
+        "chronicle": {
+            "filename":"chronik.html",
+            "title": "Chronik",
+            "link-en": "../en/chronicle.html",
+            "active": ["m-about", "chronik.html"]
+        },
+        "financing": {
+            "filename":"finanzierung.html",
+            "title": "Finanzierung",
+            "link-en": "../en/financing.html",
+            "active": ["m-about", "finanzierung.html"]
+        },
+        "project": {
+            "filename":"projekt.html",
+            "title": "Projekt",
+            "link-en": "../en/project.html",
+            "active": ["m-project"]
+        },
+        "soupkitchen": {
+            "filename":"suppenkueche.html",
+            "title": "Suppenküche",
+            "link-en": "../en/soupkitchen.html",
+            "active": ["m-project", "suppenkueche.html"]
+        },
+        "schools": {
+            "filename":"schulen.html",
+            "title": "Schulen",
+            "link-en": "../en/schools.html",
+            "active": ["m-project", "schulen.html"]
+        },
+        "help": {
+            "filename":"individuelle-hilfe.html",
+            "title": "Individuelle Hilfe",
+            "link-en": "../en/individual-help.html",
+            "active": ["m-project", "individuelle-hilfe.html"]
+        },
+        "hostel": {
+            "filename":"hostel.html",
+            "title": "Hostel",
+            "link-en": "../en/hostel.html",
+            "active": ["m-project", "hostel.html"]
+        },
+        "donate": {
+            "filename":"spenden.html",
+            "title": "Jetzt spenden!",
+            "link-en": "../en/donate.html",
+            "active": ["m-donate", "spenden.html"]
+        },
+        "donations-shop": {
+            "filename":"spendenshop.html",
+            "title": "Spendenshop",
+            "link-en": "../en/donationshop.html",
+            "active": ["m-donate", "spendenshop.html"]
+        },
+        "companies": {
+            "filename":"unternehmen.html",
+            "title": "Unternehmen",
+            "link-en": "../en/companies.html",
+            "active": ["m-donate", "unternehmen.html"]
+        },
+        "sponsoring": {
+            "filename":"patenschaft.html",
+            "title": "Patenschaft",
+            "link-en": "../en/sponsoring.html",
+            "active": ["m-donate", "patenschaft.html"]
+        },
+        "contact": {
+            "filename":"kontakt.html",
+            "title": "Kontakt",
+            "link-en": "../en/contact.html",
+            "active": ["kontakt.html"]
+        },
+        "legal": {
+            "filename":"impressum.html",
+            "title": "Impressum",
+            "link-en": "../en/legal-information.html",
+            "active": ["impressum.html"]
+        }
+    }
 }

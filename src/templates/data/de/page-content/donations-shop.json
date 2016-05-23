@@ -1,95 +1,95 @@
 {
-	"headline": "Spendenshop",
-	"paragraphs": [
-		"Zweckgebunden spenden, ganz einfach. Suche einfach aus der Liste aus was du spenden möchtest, wähle die Anzahl und bezahle unkompliziert über Paypal. Nach dem Klick auf den Spenden-Button wirst du zu PayPal weitergeleitet um den Spendenprozess abzuschließen.<br><br>"
-	],
-	"currency": "EUR",
-	"items": [
-		{
-			"title":"Ein Paket Schulmaterial",
-			"price":"15.00",
-			"img":"img/shop/schoolstuff.jpg",
-			"text":""
-		},
-		{
-			"title":"Eine Schultasche",
-			"price":"10.00",
-			"img":"img/shop/schoolbag.jpg",
-			"text":""
-		},
-		{
-			"title":"Eine Schuluniform",
-			"price":"12.00",
-			"img":"img/tmp/shop-uniform.jpg",
-			"text":""
-		},
-		{
-			"title":"Eine warme Decke für Obdachlose im Winter",
-			"price":"10.00",
-			"img":"img/shop/blanket.jpg",
-			"text":""
-		},
-		{
-			"title":"Eine Schultafel",
-			"price":"25.00",
-			"img":"img/shop/schoolboard.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein Computer für die Schule",
-			"price":"300.00",
-			"img":"img/shop/computer.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein Paket Spielsachen für die Schule",
-			"price":"20.00",
-			"img":"img/shop/toys.jpg",
-			"text":""
-		},
-		{
-			"title":"Utensilien für die Schulküche",
-			"price":"20.00",
-			"img":"img/shop/kitchenstuff.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein großes Paket Bücher für die Schulbibliothek",
-			"price":"200.00",
-			"img":"img/shop/schoolbooks.jpg",
-			"text":""
-		},
-		{
-			"title": "Ein Set aus Pullover und Mütze für den Winter",
-			"price": "7.00",
-			"img":"img/shop/sweater.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein neuer Klassenraum für die Karma-Mädchenschule",
-			"price":"1300.00",
-			"img":"img/shop/classroom.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein Ventilator für den Klassenraum inkl. Installation",
-			"price":"40.00",
-			"img":"img/shop/fan.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein Stromgenerator",
-			"price":"0.00",
-			"img":"",
-			"text":"",
-			"inactive": true
-		},
-		{
-			"title":"Ein Wasserbrunnen",
-			"price":"0.00",
-			"img":"",
-			"text":"",
-			"inactive": true
-		}
-	]
+    "headline": "Spendenshop",
+    "paragraphs": [
+        "Zweckgebunden spenden, ganz einfach. Suche einfach aus der Liste aus was du spenden möchtest, wähle die Anzahl und bezahle unkompliziert über Paypal. Nach dem Klick auf den Spenden-Button wirst du zu PayPal weitergeleitet um den Spendenprozess abzuschließen.<br><br>"
+    ],
+    "currency": "EUR",
+    "items": [
+        {
+            "title":"Ein Paket Schulmaterial",
+            "price":"15.00",
+            "img":"img/shop/schoolstuff.jpg",
+            "text":""
+        },
+        {
+            "title":"Eine Schultasche",
+            "price":"10.00",
+            "img":"img/shop/schoolbag.jpg",
+            "text":""
+        },
+        {
+            "title":"Eine Schuluniform",
+            "price":"12.00",
+            "img":"img/tmp/shop-uniform.jpg",
+            "text":""
+        },
+        {
+            "title":"Eine warme Decke für Obdachlose im Winter",
+            "price":"10.00",
+            "img":"img/shop/blanket.jpg",
+            "text":""
+        },
+        {
+            "title":"Eine Schultafel",
+            "price":"25.00",
+            "img":"img/shop/schoolboard.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein Computer für die Schule",
+            "price":"300.00",
+            "img":"img/shop/computer.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein Paket Spielsachen für die Schule",
+            "price":"20.00",
+            "img":"img/shop/toys.jpg",
+            "text":""
+        },
+        {
+            "title":"Utensilien für die Schulküche",
+            "price":"20.00",
+            "img":"img/shop/kitchenstuff.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein großes Paket Bücher für die Schulbibliothek",
+            "price":"200.00",
+            "img":"img/shop/schoolbooks.jpg",
+            "text":""
+        },
+        {
+            "title": "Ein Set aus Pullover und Mütze für den Winter",
+            "price": "7.00",
+            "img":"img/shop/sweater.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein neuer Klassenraum für die Karma-Mädchenschule",
+            "price":"1300.00",
+            "img":"img/shop/classroom.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein Ventilator für den Klassenraum inkl. Installation",
+            "price":"40.00",
+            "img":"img/shop/fan.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein Stromgenerator",
+            "price":"0.00",
+            "img":"",
+            "text":"",
+            "inactive": true
+        },
+        {
+            "title":"Ein Wasserbrunnen",
+            "price":"0.00",
+            "img":"",
+            "text":"",
+            "inactive": true
+        }
+    ]
 }

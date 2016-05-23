@@ -1,31 +1,31 @@
 {
-	"headline": "Übernimm Verantwortung – werde Pate für ein Kind!",
-	"block-01": {
-		"paragraphs": [
-			"Für lediglich <strong>5 Euro im Monat</strong> können unsere Kinder für einen ganzen Monat bei uns zur Schule gehen. Die Spende beinhaltet ebenso eine taegliche warme Mahlzeit für dein Patenkind. Einmal im Jahr schicken unsere Patenkinder als Dankeschön eine persönliche, selbst geschriebene Postkarte an ihre Paten.",
-			"Wenn du hier Verantwortung übernehmen und helfen möchtest, kontaktiere uns über <a href=\"https://www.facebook.com/bowlofcompassion.india\">Facebook</a> oder unter <a href=\"kontakt.html\">mail@bowlofcompassion.org</a>. Michael wird sich dann bei euch melden."
-		]
-	},
-	"sidebar": {
-		"img": ""
-	},
-	"images": [
-		{
-			"grid-class": "col w3 phone-4",
-			"items": [
-				{
-					"src":"img/content/sponsored-01.jpg"
-				},
-				{
-					"src":"img/content/sponsored-05.jpg"
-				},
-				{
-					"src":"img/content/sponsored-03.jpg"
-				},
-				{
-					"src":"img/content/sponsored-02.jpg"
-				}
-			]
-		}
-	]
+    "headline": "Übernimm Verantwortung – werde Pate für ein Kind!",
+    "block-01": {
+        "paragraphs": [
+            "Für lediglich <strong>5 Euro im Monat</strong> können unsere Kinder für einen ganzen Monat bei uns zur Schule gehen. Die Spende beinhaltet ebenso eine taegliche warme Mahlzeit für dein Patenkind. Einmal im Jahr schicken unsere Patenkinder als Dankeschön eine persönliche, selbst geschriebene Postkarte an ihre Paten.",
+            "Wenn du hier Verantwortung übernehmen und helfen möchtest, kontaktiere uns über <a href=\"https://www.facebook.com/bowlofcompassion.india\">Facebook</a> oder unter <a href=\"kontakt.html\">mail@bowlofcompassion.org</a>. Michael wird sich dann bei euch melden."
+        ]
+    },
+    "sidebar": {
+        "img": ""
+    },
+    "images": [
+        {
+            "grid-class": "col w3 phone-4",
+            "items": [
+                {
+                    "src":"img/content/sponsored-01.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-05.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-03.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-02.jpg"
+                }
+            ]
+        }
+    ]
 }

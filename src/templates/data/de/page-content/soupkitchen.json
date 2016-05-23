@@ -1,21 +1,21 @@
 {
-	"headline": "Suppenküche",
-	"block-01": {
-		"paragraphs": [
-			"Unser heutiges Projekt entstand 2008 aus der Anfangsidee, das Konzept der deutschen Suppenküchen nach Indien zu transportieren. Seit 2009 bieten wir bedürftigen Menschen ohne Obdach, warme Mahlzeiten in den Straßen Bodhgayas an.",
-			"Die Zubereitung der Mahlzeiten findet in unserer Küche statt. Die Mahlzeiten sind vegetarisch und bestehen überwiegend aus frischem Gemüse, Reis und indischem Brot (Rotis, Purism oder Chapatis). Für 5 Euro monatlich können wir täglich einen Menschen mit einer warmen Mahlzeit versorgen.",
-			"Seit Beginn des Projekts beschäftigen wir eine Köchin, die uns seitdem treu geblieben ist und uns täglich bei der Zubereitung der Mahlzeiten für unsere Kinder und Obdachlosen unterstützt. Durch zahlreiche Spenden aus aller Welt konnten wir seit dem Start des Projekts bereits mehr als <strong>140.000 Mahlzeiten</strong> servieren (Stand 2014)."
-		],
-		"img": [
-			{
-				"src":"img/content/sushma-01b.jpg"
-			},
-			{
-				"src":"img/content/lunch-02.jpg"
-			}
-		]
-	},
-	"sidebar":{
-		"img":"img/content/sushma-01.jpg"
-	}
+    "headline": "Suppenküche",
+    "block-01": {
+        "paragraphs": [
+            "Unser heutiges Projekt entstand 2008 aus der Anfangsidee, das Konzept der deutschen Suppenküchen nach Indien zu transportieren. Seit 2009 bieten wir bedürftigen Menschen ohne Obdach, warme Mahlzeiten in den Straßen Bodhgayas an.",
+            "Die Zubereitung der Mahlzeiten findet in unserer Küche statt. Die Mahlzeiten sind vegetarisch und bestehen überwiegend aus frischem Gemüse, Reis und indischem Brot (Rotis, Purism oder Chapatis). Für 5 Euro monatlich können wir täglich einen Menschen mit einer warmen Mahlzeit versorgen.",
+            "Seit Beginn des Projekts beschäftigen wir eine Köchin, die uns seitdem treu geblieben ist und uns täglich bei der Zubereitung der Mahlzeiten für unsere Kinder und Obdachlosen unterstützt. Durch zahlreiche Spenden aus aller Welt konnten wir seit dem Start des Projekts bereits mehr als <strong>140.000 Mahlzeiten</strong> servieren (Stand 2014)."
+        ],
+        "img": [
+            {
+                "src":"img/content/sushma-01b.jpg"
+            },
+            {
+                "src":"img/content/lunch-02.jpg"
+            }
+        ]
+    },
+    "sidebar":{
+        "img":"img/content/sushma-01.jpg"
+    }
 }

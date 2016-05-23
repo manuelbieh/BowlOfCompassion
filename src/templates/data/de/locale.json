@@ -1,8 +1,8 @@
 {
-	"lang": "de_DE",
+    "lang": "de_DE",
     "lc": "DE",
-	"currency": "EUR",
-	"currency-symbol": "€",
+    "currency": "EUR",
+    "currency-symbol": "€",
     "bank-account": {
         "headline": "Spendenkonto",
         "account": "Konto",

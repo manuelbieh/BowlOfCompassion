@@ -1,10 +1,10 @@
 {
-	"headline": "Hostel",
-	"block-01": {
-		"paragraphs": [
+    "headline": "Hostel",
+    "block-01": {
+        "paragraphs": [
             "In 2012 we started the work on our Hostel, opening a new revenue source for our project. After completing the construction of the first dormitory it didn’t take long before the first guests arrived. Since then our Hostel has been ranked number 1 on the Website <a href=\"http://www.tripadvisor.de/Hotel_Review-g424922-d5605753-Reviews-A_Bowl_of_Compassion_Charity_Backpackers-Bodh_Gaya_Bihar.html\" target=\"_blank\">Tripadvisor</a> for accommodation in the entire region.",
-			"For our guests the Hostel is an opportunity to learn more about the project and gain an impression of life in an Indian village. It is an important additional source of income to finance our on-site projects."
-		]
-	},
-	"tripadvisor":"<div id='TA_selfserveprop264' class='TA_selfserveprop'> <ul id='OXeaUII' class='TA_links ilytDREQG'> <li id='s2lsuqdm1R5' class='woz5zeJbyX'> <a target='_blank' href='http://www.tripadvisor.de/'><img src='http://www.tripadvisor.de/img/cdsi/img2/branding/150_logo-11900-2.png' alt='TripAdvisor'/></a> </li> </ul> </div> <script src='http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=264&amp;locationId=5605753&amp;lang=en&amp;rating=true&amp;nreviews=3&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2'></script>"
+            "For our guests the Hostel is an opportunity to learn more about the project and gain an impression of life in an Indian village. It is an important additional source of income to finance our on-site projects."
+        ]
+    },
+    "tripadvisor":"<div id='TA_selfserveprop264' class='TA_selfserveprop'> <ul id='OXeaUII' class='TA_links ilytDREQG'> <li id='s2lsuqdm1R5' class='woz5zeJbyX'> <a target='_blank' href='http://www.tripadvisor.de/'><img src='http://www.tripadvisor.de/img/cdsi/img2/branding/150_logo-11900-2.png' alt='TripAdvisor'/></a> </li> </ul> </div> <script src='http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=264&amp;locationId=5605753&amp;lang=en&amp;rating=true&amp;nreviews=3&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2'></script>"
 }

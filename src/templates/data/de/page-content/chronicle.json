@@ -1,72 +1,70 @@
 {
-	"headline": "Chronik",
-	"block-01": {
-		"paragraphs": [
-			"Seit dem Start unseres Projekts im Jahr 2008 konnten viele großartige Dinge durch die Hilfe unserer Spender und Voluntäre realisiert werden. An vielen Stellen wurden unsere eigenen Erwartungen weit übertroffen. Die wichtigsten Meilensteine haben wir in unserer Chronik einmal übersichtlich zusammengefasst."
-		]
-	},
-	"sidebar": {
-		"img":"img/tmp/content01.jpg"
-	},
-	"items": [
-		{
-			"year":"2014",
-			"headline":"Die zweite Schule wird eröffnet",
-			"paragraphs": [
-				"Die Mädchenschule „Flowers of Lakshmi“ wird im nahegelegenen Dorf „Karma“ gestartet. Zunächst werden die Räumlichkeiten für 20 Mädchen angemietet."
-			]
-		},
-		{
-			"year":"2013",
-			"headline":"Ein Hostel für unsere Volunteers und ein Kunstraum entsteht",
-			"paragraphs": [
-				"Wir bekommen eine großzügige Spende aus den USA und können einen Kunstraum für unsere Schulkinder bauen lassen.",
-				"Das „Charity Backpackers“ wird ins Leben gerufen und belegt als Hostel den ersten Platz in der Region auf der Webseite „Tripadvisor“. Es entsteht ein Cafe für die Hostelgäste, in welchem indische Gerichte für einen guten Zweck serviert werden."
-			]
-		},
-		{
-			"year":"2012",
-			"headline":"Neue Klassenräume und 100 Kinder in der Grundschule",
-			"paragraphs": [
-				"Der dritte und vierte Klassenraum kann errichtet werden. 100 Kinder besuchen die Grundschule. Wir können eine Reinigungskraft, sowie einen Mitarbeiter für allgemeine Hilfsarbeiten einstellen.",
-				"Es entsteht die Idee eines Charity Hostels, um vor Ort Geld für das Projekt erwirtschaften zu können. Noch im selbigen Jahr kann durch eine Spende der Bau an einem Schlafsaal beginnen und fertig gestellt werden. Es fliessen die ersten selbst erwirtschafteten Einnahmen in Schulmaterialien für die Grundschule."
-			]
-		},
-		{
-			"year":"2011",
-			"headline":"Zweiter Klassenraum, Schultoilette und Handarbeits-Workshops",
-			"paragraphs": [
-				"Weitere Spendengelder ermöglichen den Bau eines zweiten Klassenraums und einer Schultoilette. Inzwischen besuchen bereits 70 Kinder die Grundschule.",
-				"Wir bieten Handarbeits-Workshops für junge Frauen an, an denen täglich bis zu 40 Frauen teilnehmen. Unsere Suppenküche wird mobil. Warme Mahlzeiten werden nun an bedürftige Menschen in den Straßen Bodhgayas verteilt."
-			]
-		},
-		{
-			"year":"2010",
-			"headline":"80 Besucher in der Suppenküche und eine eigene Schulköchin",
-			"paragraphs": [
-				"Im Oktober reist Michael Saatkamp zurück nach Indien, um mit dem geplanten Projekt zu beginnen.",
-				"Im November werden die ersten Mauern der Suppenküche errichtet. Es kommen 40-50 Erwachsene Menschen zur täglichen Essensausgabe.",
-				"Die ersten internationalen freiwilligen Helfer und Gäste besuchen das Projekt. Aufgrund der vielen westlichen Besucher werden viele neuen Ideen verwirklicht. Skandinavischen Voluntäre ermöglichen durch eine Spende den Bau von 2 Gästeräumen, welche zugunsten des Projektes an Touristen vermietet werden."
-			]
-		},
-		{
-			"year":"2009",
-			"headline":"Eröffnung der ersten Schule mit 40 Schülern",
-			"paragraphs": [
-				"Im Oktober reist Michael Saatkamp zurück nach Indien, um mit dem geplanten Projekt zu beginnen.",
-				"Im November werden die ersten Mauern der Suppenküche errichtet. Es kommen 40-50 Erwachsene Menschen zur täglichen Essensausgabe.",
-				"Zeitgleich wird über die Idee zur Errichtung einer Grundschule für kastenlose Kinder aus den umlegenden Dörfern diskutiert, welche wenige Wochen später in die Praxis umgesetzt wurde. 40 Kinder werden zum Start an der „A Bowl of Compassion Primary School“ unterrichtet. Es gibt lediglich eine Küche, einen Klassenraum und eine Lehrkraft."
-			]
-		},
-		{
-			"year":"2008",
-			"headline":"Eine Idee wird geboren",
-			"paragraphs": [
-				"Während einer zweijährigen Rucksack-Reise durch Asien lernt der damals 27jährige Erzieher Michael Saatkamp den in Bodhgaya lebenden Sozialarbeiter Murari Singh kennen.",
-				"Es entsteht schnell eine gute Freundschaft. Gemeinsam beschließen Sie, sich für obdachlose und bedürftige Menschen in Nordindien einzusetzen. Die Idee zur Etablierung einer Suppenküche wird geboren. Michael Saatkamp reist zurück nach Deutschland um Hilfe bei Freunden und Familie zu suchen."
-			]
-		}
-	]
+    "headline": "Chronik",
+    "block-01": {
+        "paragraphs": [
+            "Seit dem Start unseres Projekts im Jahr 2008 konnten viele großartige Dinge durch die Hilfe unserer Spender und Voluntäre realisiert werden. An vielen Stellen wurden unsere eigenen Erwartungen weit übertroffen. Die wichtigsten Meilensteine haben wir in unserer Chronik einmal übersichtlich zusammengefasst."
+        ]
+    },
+    "sidebar": {
+        "img":"img/tmp/content01.jpg"
+    },
+    "items": [
+        {
+            "year":"2014",
+            "headline":"Die zweite Schule wird eröffnet",
+            "paragraphs": [
+                "Die Mädchenschule „Flowers of Lakshmi“ wird im nahegelegenen Dorf „Karma“ gestartet. Zunächst werden die Räumlichkeiten für 20 Mädchen angemietet."
+            ]
+        },
+        {
+            "year":"2013",
+            "headline":"Ein Hostel für unsere Volunteers und ein Kunstraum entsteht",
+            "paragraphs": [
+                "Wir bekommen eine großzügige Spende aus den USA und können einen Kunstraum für unsere Schulkinder bauen lassen.",
+                "Das „Charity Backpackers“ wird ins Leben gerufen und belegt als Hostel den ersten Platz in der Region auf der Webseite „Tripadvisor“. Es entsteht ein Cafe für die Hostelgäste, in welchem indische Gerichte für einen guten Zweck serviert werden."
+            ]
+        },
+        {
+            "year":"2012",
+            "headline":"Neue Klassenräume und 100 Kinder in der Grundschule",
+            "paragraphs": [
+                "Der dritte und vierte Klassenraum kann errichtet werden. 100 Kinder besuchen die Grundschule. Wir können eine Reinigungskraft, sowie einen Mitarbeiter für allgemeine Hilfsarbeiten einstellen.",
+                "Es entsteht die Idee eines Charity Hostels, um vor Ort Geld für das Projekt erwirtschaften zu können. Noch im selbigen Jahr kann durch eine Spende der Bau an einem Schlafsaal beginnen und fertig gestellt werden. Es fliessen die ersten selbst erwirtschafteten Einnahmen in Schulmaterialien für die Grundschule."
+            ]
+        },
+        {
+            "year":"2011",
+            "headline":"Zweiter Klassenraum, Schultoilette und Handarbeits-Workshops",
+            "paragraphs": [
+                "Weitere Spendengelder ermöglichen den Bau eines zweiten Klassenraums und einer Schultoilette. Inzwischen besuchen bereits 70 Kinder die Grundschule.",
+                "Wir bieten Handarbeits-Workshops für junge Frauen an, an denen täglich bis zu 40 Frauen teilnehmen. Unsere Suppenküche wird mobil. Warme Mahlzeiten werden nun an bedürftige Menschen in den Straßen Bodhgayas verteilt."
+            ]
+        },
+        {
+            "year":"2010",
+            "headline":"80 Besucher in der Suppenküche und eine eigene Schulköchin",
+            "paragraphs": [
+                "Im Oktober reist Michael Saatkamp zurück nach Indien, um mit dem geplanten Projekt zu beginnen.",
+                "Im November werden die ersten Mauern der Suppenküche errichtet. Es kommen 40-50 Erwachsene Menschen zur täglichen Essensausgabe.",
+                "Die ersten internationalen freiwilligen Helfer und Gäste besuchen das Projekt. Aufgrund der vielen westlichen Besucher werden viele neuen Ideen verwirklicht. Skandinavischen Voluntäre ermöglichen durch eine Spende den Bau von 2 Gästeräumen, welche zugunsten des Projektes an Touristen vermietet werden."
+            ]
+        },
+        {
+            "year":"2009",
+            "headline":"Eröffnung der ersten Schule mit 40 Schülern",
+            "paragraphs": [
+                "Im Oktober reist Michael Saatkamp zurück nach Indien, um mit dem geplanten Projekt zu beginnen.",
+                "Im November werden die ersten Mauern der Suppenküche errichtet. Es kommen 40-50 Erwachsene Menschen zur täglichen Essensausgabe.",
+                "Zeitgleich wird über die Idee zur Errichtung einer Grundschule für kastenlose Kinder aus den umlegenden Dörfern diskutiert, welche wenige Wochen später in die Praxis umgesetzt wurde. 40 Kinder werden zum Start an der „A Bowl of Compassion Primary School“ unterrichtet. Es gibt lediglich eine Küche, einen Klassenraum und eine Lehrkraft."
+            ]
+        },
+        {
+            "year":"2008",
+            "headline":"Eine Idee wird geboren",
+            "paragraphs": [
+                "Während einer zweijährigen Rucksack-Reise durch Asien lernt der damals 27jährige Erzieher Michael Saatkamp den in Bodhgaya lebenden Sozialarbeiter Murari Singh kennen.",
+                "Es entsteht schnell eine gute Freundschaft. Gemeinsam beschließen Sie, sich für obdachlose und bedürftige Menschen in Nordindien einzusetzen. Die Idee zur Etablierung einer Suppenküche wird geboren. Michael Saatkamp reist zurück nach Deutschland um Hilfe bei Freunden und Familie zu suchen."
+            ]
+        }
+    ]
 }
-
-

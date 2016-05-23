@@ -11,26 +11,26 @@ category: p-companies
 {{#with companies}}
 <div class="content">
 
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w8">
-			<h1>{{headline}}</h1>
-			{{#each block-01.paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
+        <div class="col w8">
+            <h1>{{headline}}</h1>
+            {{#each block-01.paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
 
-		<div class="col w4 phone-4">
-			<h1>{{sidebar.headline}}</h1>
-			{{#each partners}}
-				<div>
-					{{#if href}}<a href="{{href}}">{{/if}}
-						<img src="{{img}}" alt="" class="company-logo">
-					{{#if href}}</a>{{/if}}
-				</div>
-			{{/each}}
-		</div>
+        <div class="col w4 phone-4">
+            <h1>{{sidebar.headline}}</h1>
+            {{#each partners}}
+                <div>
+                    {{#if href}}<a href="{{href}}">{{/if}}
+                        <img src="{{img}}" alt="" class="company-logo">
+                    {{#if href}}</a>{{/if}}
+                </div>
+            {{/each}}
+        </div>
 
-	</div>
+    </div>
 </div>
 {{/with}}

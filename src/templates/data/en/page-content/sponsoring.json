@@ -1,31 +1,31 @@
 {
-	"headline": "Take responsibility and become a sponsor for a child!",
-	"block-01": {
-		"paragraphs": [
-			"For only <strong>5 dollars per month</strong> we can enroll a child in one of our primary schools. The children get a daily warm school meal as well as any school materials they may need.",
-			"If you would like to become a sponsor please contact Michael via <a href=\"https://www.facebook.com/bowlofcompassion.india\">Facebook</a> or via email at <a href=\"kontakt.html\">mail@bowlofcompassion.org</a>. He will be happy to send you more information."
-		]
-	},
-	"sidebar": {
-		"img": ""
-	},
-	"images": [
-		{
-			"grid-class": "col w3 phone-4",
-			"items": [
-				{
-					"src":"img/content/sponsored-01.jpg"
-				},
-				{
-					"src":"img/content/sponsored-05.jpg"
-				},
-				{
-					"src":"img/content/sponsored-03.jpg"
-				},
-				{
-					"src":"img/content/sponsored-02.jpg"
-				}
-			]
-		}
-	]
+    "headline": "Take responsibility and become a sponsor for a child!",
+    "block-01": {
+        "paragraphs": [
+            "For only <strong>5 dollars per month</strong> we can enroll a child in one of our primary schools. The children get a daily warm school meal as well as any school materials they may need.",
+            "If you would like to become a sponsor please contact Michael via <a href=\"https://www.facebook.com/bowlofcompassion.india\">Facebook</a> or via email at <a href=\"kontakt.html\">mail@bowlofcompassion.org</a>. He will be happy to send you more information."
+        ]
+    },
+    "sidebar": {
+        "img": ""
+    },
+    "images": [
+        {
+            "grid-class": "col w3 phone-4",
+            "items": [
+                {
+                    "src":"img/content/sponsored-01.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-05.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-03.jpg"
+                },
+                {
+                    "src":"img/content/sponsored-02.jpg"
+                }
+            ]
+        }
+    ]
 }

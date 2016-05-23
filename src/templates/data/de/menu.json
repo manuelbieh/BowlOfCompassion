@@ -1,71 +1,71 @@
 {
-	"items": [
-		{
-			"text":"Über uns",
-			"id":"m-about",
-			"items": [
-				{
-					"text":"Die Idee",
-					"href":"idee.html"
-				},
-				{
-					"text":"Unsere Mission",
-					"href":"mission.html"
-				},
-				{
-					"text":"Chronik",
-					"href":"chronik.html"
-				},
-				{
-					"text":"Finanzierung",
-					"href":"finanzierung.html"
-				}
-			]
-		},
-		{
-			"text":"Das Projekt",
-			"id":"m-project",
-			"items": [
-				{
-					"text":"Suppenküche",
-					"href":"suppenkueche.html"
-				},
-				{
-					"text":"Schulen",
-					"href":"schulen.html"
-				},
-				{
-					"text":"Hostel",
-					"href":"hostel.html"
-				}
-			]
-		},
-		{
-			"text":"Helfen!",
-			"id":"m-donate",
-			"items": [
-				{
-					"text":"Jetzt spenden!",
-					"href":"spenden.html"
-				},
-				{
-					"text":"Spendenshop",
-					"href":"spendenshop.html"
-				},
-				{
-					"text":"Pate werden",
-					"href":"patenschaft.html"
-				},
-				{
-					"text":"Unternehmen",
-					"href":"unternehmen.html"
-				}
-			]
-		},
-		{
-			"text":"Kontakt",
-			"class": "m-contact",
-			"href":"kontakt.html"
-		}
-	]
+    "items": [
+        {
+            "text":"Über uns",
+            "id":"m-about",
+            "items": [
+                {
+                    "text":"Die Idee",
+                    "href":"idee.html"
+                },
+                {
+                    "text":"Unsere Mission",
+                    "href":"mission.html"
+                },
+                {
+                    "text":"Chronik",
+                    "href":"chronik.html"
+                },
+                {
+                    "text":"Finanzierung",
+                    "href":"finanzierung.html"
+                }
+            ]
+        },
+        {
+            "text":"Das Projekt",
+            "id":"m-project",
+            "items": [
+                {
+                    "text":"Suppenküche",
+                    "href":"suppenkueche.html"
+                },
+                {
+                    "text":"Schulen",
+                    "href":"schulen.html"
+                },
+                {
+                    "text":"Hostel",
+                    "href":"hostel.html"
+                }
+            ]
+        },
+        {
+            "text":"Helfen!",
+            "id":"m-donate",
+            "items": [
+                {
+                    "text":"Jetzt spenden!",
+                    "href":"spenden.html"
+                },
+                {
+                    "text":"Spendenshop",
+                    "href":"spendenshop.html"
+                },
+                {
+                    "text":"Pate werden",
+                    "href":"patenschaft.html"
+                },
+                {
+                    "text":"Unternehmen",
+                    "href":"unternehmen.html"
+                }
+            ]
+        },
+        {
+            "text":"Kontakt",
+            "class": "m-contact",
+            "href":"kontakt.html"
+        }
+    ]
 }

@@ -8,54 +8,54 @@ category: p-contact
 
 <div class="content">
 {{#with contact}}
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w12">
-			<h1>{{{headline}}}</h1>
-		</div>
+        <div class="col w12">
+            <h1>{{{headline}}}</h1>
+        </div>
 
-		{{#with block-01}}
-		<div class="col w4">
-			<h2>{{{headline}}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
-		{{/with}}
+        {{#with block-01}}
+        <div class="col w4">
+            <h2>{{{headline}}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
+        {{/with}}
 
-		{{#with block-02}}
-		<div class="col w4">
-			<h2>{{{headline}}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
-		{{/with}}
+        {{#with block-02}}
+        <div class="col w4">
+            <h2>{{{headline}}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
+        {{/with}}
 
-		{{#with block-03}}
-		<div class="col w4">
-			<h2>{{{headline}}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
-		{{/with}}
+        {{#with block-03}}
+        <div class="col w4">
+            <h2>{{{headline}}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
+        {{/with}}
 
-	{{#with team}}
+    {{#with team}}
 
-		<div class="col w12">
-			<h1>{{headline}}</h1>
-		</div>
+        <div class="col w12">
+            <h1>{{headline}}</h1>
+        </div>
 
-		{{#each items}}
-		<div class="col w4">
-			<p><strong>{{headline}}</strong><br>
-			{{title}}</p>
-		</div>
-		{{/each}}
+        {{#each items}}
+        <div class="col w4">
+            <p><strong>{{headline}}</strong><br>
+            {{title}}</p>
+        </div>
+        {{/each}}
 
-	{{/with}}
-	</div>
+    {{/with}}
+    </div>
 
 {{/with}}
 </div>

@@ -11,72 +11,71 @@ category: p-donations-shop
 
 {{#with donations-shop}}
 
-	<div class="wrapper minigrid shopgrid">
+    <div class="wrapper minigrid shopgrid">
 
-		<div class="col w12">
-			<h1>{{headline}}</h1>
-			<p>{{{paragraphs.[0]}}}</p>
-		</div>
+        <div class="col w12">
+            <h1>{{headline}}</h1>
+            <p>{{{paragraphs.[0]}}}</p>
+        </div>
 
-		<div class="row">
-		{{#each items}}
+        <div class="row">
+        {{#each items}}
 
-			{{#unless inactive}}
-			<div class="col w3 phone-4 tablet-4 item">
+            {{#unless inactive}}
+            <div class="col w3 phone-4 tablet-4 item">
 {{!--
- 				{{#if headline}}
-					<p>{{{text}}}</p>
-				{{else}}
+                 {{#if headline}}
+                    <p>{{{text}}}</p>
+                {{else}}
  --}}
-				<h3>{{title}}</h3>
-				<h4 class="is-greyed">{{price}} {{../../../locale.currency}}</h4>
-				<img src="{{#if img}}{{img}}{{else}}img/icons/no-img.png{{/if}}" class="item-img" alt="">
+                <h3>{{title}}</h3>
+                <h4 class="is-greyed">{{price}} {{../../../locale.currency}}</h4>
+                <img src="{{#if img}}{{img}}{{else}}img/icons/no-img.png{{/if}}" class="item-img" alt="">
 
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					{{#with .}}
-					{{!--
-					{{> _paypal-form-de}}
-					--}}
-					{{/with}}
-					<select name="quantity">
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-					</select>
-					<input type="submit" value="Buy now!" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-					<input type="hidden" name="cmd" value="_xclick">
-					<input type="hidden" name="business" value="mail@bowlofcompassion.org">
-					<input type="hidden" name="lc" value="{{../../../locale.lc}}">
-					<input type="hidden" name="item_name" value="{{title}}">
-					<input type="hidden" name="amount" value="{{price}}">
-					<input type="hidden" name="currency_code" value="{{#if ../../currency}}{{../../../currency}}{{else}}EUR{{/if}}">
-					<input type="hidden" name="button_subtype" value="services">
-					<input type="hidden" name="no_note" value="0">
-					<input type="hidden" name="tax_rate" value="0.000">
-					<input type="hidden" name="charset" value="utf-8">
-					<input type="hidden" name="shipping" value="0.00">
-					<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-					<!--<input type="submit" value="Jetzt kaufen" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">-->
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
-{{!-- 				{{/if}} --}}
-			</div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    {{#with .}}
+                    {{!--
+                    {{> _paypal-form-de}}
+                    --}}
+                    {{/with}}
+                    <select name="quantity">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <input type="submit" value="Buy now!" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="mail@bowlofcompassion.org">
+                    <input type="hidden" name="lc" value="{{../../../locale.lc}}">
+                    <input type="hidden" name="item_name" value="{{title}}">
+                    <input type="hidden" name="amount" value="{{price}}">
+                    <input type="hidden" name="currency_code" value="{{#if ../../currency}}{{../../../currency}}{{else}}EUR{{/if}}">
+                    <input type="hidden" name="button_subtype" value="services">
+                    <input type="hidden" name="no_note" value="0">
+                    <input type="hidden" name="tax_rate" value="0.000">
+                    <input type="hidden" name="charset" value="utf-8">
+                    <input type="hidden" name="shipping" value="0.00">
+                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                    <!--<input type="submit" value="Jetzt kaufen" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">-->
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+{{!--                 {{/if}} --}}
+            </div>
 
-			{{/unless}}
+            {{/unless}}
 
-		{{/each}}
-		</div>
+        {{/each}}
+        </div>
 
-	</div>
+    </div>
 
 {{/with}}
 
 </div>
-

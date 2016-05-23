@@ -1,95 +1,95 @@
 {
-	"headline": "Donation shop",
-	"paragraphs": [
-		"Our online shop makes it easy to help directly with donations through PayPal. Just choose what you would like to support our project with from the listed items below. You will be directed to Paypal after you have clicked the donation button.<br><br>"
-	],
-	"currency": "USD",
-	"items": [
-		{
-			"title":"A package of school supplies",
-			"price":"15.00",
-			"img":"img/shop/schoolstuff.jpg",
-			"text":""
-		},
-		{
-			"title":"A school bag",
-			"price":"10.00",
-			"img":"img/shop/schoolbag.jpg",
-			"text":""
-		},
-		{
-			"title":"A school uniform",
-			"price":"12.00",
-			"img":"img/tmp/shop-uniform.jpg",
-			"text":""
-		},
-		{
-			"title":"A warm blanket for homeless people",
-			"price":"10.00",
-			"img":"img/shop/blanket.jpg",
-			"text":""
-		},
-		{
-			"title":"A chalkboard",
-			"price":"25.00",
-			"img":"img/shop/schoolboard.jpg",
-			"text":""
-		},
-		{
-			"title":"A computer for our schools",
-			"price":"300.00",
-			"img":"img/shop/computer.jpg",
-			"text":""
-		},
-		{
-			"title":"A package of toys",
-			"price":"20.00",
-			"img":"img/shop/toys.jpg",
-			"text":""
-		},
-		{
-			"title":"A package of kitchen tools",
-			"price":"20.00",
-			"img":"img/shop/kitchenstuff.jpg",
-			"text":""
-		},
-		{
-			"title":"A big package of books for our school library",
-			"price":"200.00",
-			"img":"img/shop/schoolbooks.jpg",
-			"text":""
-		},
-		{
-			"title": "A package of clothes for the winter",
-			"price": "7.00",
-			"img":"img/shop/sweater.jpg",
-			"text":""
-		},
-		{
-			"title":"A whole new classroom for our Karma girls' school",
-			"price":"1300.00",
-			"img":"img/shop/classroom.jpg",
-			"text":""
-		},
-		{
-			"title":"A fan for one of our classrooms",
-			"price":"40.00",
-			"img":"img/shop/fan.jpg",
-			"text":""
-		},
-		{
-			"title":"Ein Stromgenerator",
-			"price":"0.00",
-			"img":"",
-			"text":"",
-			"inactive": true
-		},
-		{
-			"title":"Ein Wasserbrunnen",
-			"price":"0.00",
-			"img":"",
-			"text":"",
-			"inactive": true
-		}
-	]
+    "headline": "Donation shop",
+    "paragraphs": [
+        "Our online shop makes it easy to help directly with donations through PayPal. Just choose what you would like to support our project with from the listed items below. You will be directed to Paypal after you have clicked the donation button.<br><br>"
+    ],
+    "currency": "USD",
+    "items": [
+        {
+            "title":"A package of school supplies",
+            "price":"15.00",
+            "img":"img/shop/schoolstuff.jpg",
+            "text":""
+        },
+        {
+            "title":"A school bag",
+            "price":"10.00",
+            "img":"img/shop/schoolbag.jpg",
+            "text":""
+        },
+        {
+            "title":"A school uniform",
+            "price":"12.00",
+            "img":"img/tmp/shop-uniform.jpg",
+            "text":""
+        },
+        {
+            "title":"A warm blanket for homeless people",
+            "price":"10.00",
+            "img":"img/shop/blanket.jpg",
+            "text":""
+        },
+        {
+            "title":"A chalkboard",
+            "price":"25.00",
+            "img":"img/shop/schoolboard.jpg",
+            "text":""
+        },
+        {
+            "title":"A computer for our schools",
+            "price":"300.00",
+            "img":"img/shop/computer.jpg",
+            "text":""
+        },
+        {
+            "title":"A package of toys",
+            "price":"20.00",
+            "img":"img/shop/toys.jpg",
+            "text":""
+        },
+        {
+            "title":"A package of kitchen tools",
+            "price":"20.00",
+            "img":"img/shop/kitchenstuff.jpg",
+            "text":""
+        },
+        {
+            "title":"A big package of books for our school library",
+            "price":"200.00",
+            "img":"img/shop/schoolbooks.jpg",
+            "text":""
+        },
+        {
+            "title": "A package of clothes for the winter",
+            "price": "7.00",
+            "img":"img/shop/sweater.jpg",
+            "text":""
+        },
+        {
+            "title":"A whole new classroom for our Karma girls' school",
+            "price":"1300.00",
+            "img":"img/shop/classroom.jpg",
+            "text":""
+        },
+        {
+            "title":"A fan for one of our classrooms",
+            "price":"40.00",
+            "img":"img/shop/fan.jpg",
+            "text":""
+        },
+        {
+            "title":"Ein Stromgenerator",
+            "price":"0.00",
+            "img":"",
+            "text":"",
+            "inactive": true
+        },
+        {
+            "title":"Ein Wasserbrunnen",
+            "price":"0.00",
+            "img":"",
+            "text":"",
+            "inactive": true
+        }
+    ]
 }

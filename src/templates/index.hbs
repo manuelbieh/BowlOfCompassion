@@ -9,22 +9,22 @@ category: home
 
 <div class="content">
 
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w12">
-			<h1>{{home.block-01.headline}}</h1>
-		</div>
-		<div class="col w8">
-		{{#each home.block-01.paragraphs}}
-			<p>{{.}}</p>
-		{{/each}}
-		</div>
+        <div class="col w12">
+            <h1>{{home.block-01.headline}}</h1>
+        </div>
+        <div class="col w8">
+        {{#each home.block-01.paragraphs}}
+            <p>{{.}}</p>
+        {{/each}}
+        </div>
 
-		<div class="col w4 phone-4">
-			{{> _box-meals}}
-		</div>
+        <div class="col w4 phone-4">
+            {{> _box-meals}}
+        </div>
 
-	</div>
+    </div>
 </div>
 
 {{> _overview}}

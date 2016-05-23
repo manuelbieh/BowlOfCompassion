@@ -1,74 +1,74 @@
 {
-	"items": [
-		{
-			"text":"About us",
-			"id":"m-about",
-			"href": "idea.html",
-			"items": [
-				{
-					"text":"The idea",
-					"href":"idea.html"
-				},
-				{
-					"text":"Our mission",
-					"href":"mission.html"
-				},
-				{
-					"text":"Chronicle",
-					"href":"chronicle.html"
-				},
-				{
-					"text":"Financing",
-					"href":"financing.html"
-				}
-			]
-		},
-		{
-			"text":"The Project",
-			"id":"m-project",
-			"href": "soupkitchen.html",
-			"items": [
-				{
-					"text":"Soupkitchen",
-					"href":"soupkitchen.html"
-				},
-				{
-					"text":"Schools",
-					"href":"schools.html"
-				},
-				{
-					"text":"Hostel",
-					"href":"hostel.html"
-				}
-			]
-		},
-		{
-			"text":"You can help!",
-			"id": "m-donate",
-			"href": "donate.html",
-			"items": [
-				{
-					"text":"Donate now",
-					"href":"donate.html"
-				},
-				{
-					"text":"Donation shop",
-					"href":"donationshop.html"
-				},
-				{
-					"text":"Sponsoring",
-					"href":"sponsoring.html"
-				},
-				{
-					"text":"Companies",
-					"href":"companies.html"
-				}
-			]
-		},
-		{
-			"text":"Contact",
-			"class": "contact",
-			"href":"contact.html"
-		}
-	]
+    "items": [
+        {
+            "text":"About us",
+            "id":"m-about",
+            "href": "idea.html",
+            "items": [
+                {
+                    "text":"The idea",
+                    "href":"idea.html"
+                },
+                {
+                    "text":"Our mission",
+                    "href":"mission.html"
+                },
+                {
+                    "text":"Chronicle",
+                    "href":"chronicle.html"
+                },
+                {
+                    "text":"Financing",
+                    "href":"financing.html"
+                }
+            ]
+        },
+        {
+            "text":"The Project",
+            "id":"m-project",
+            "href": "soupkitchen.html",
+            "items": [
+                {
+                    "text":"Soupkitchen",
+                    "href":"soupkitchen.html"
+                },
+                {
+                    "text":"Schools",
+                    "href":"schools.html"
+                },
+                {
+                    "text":"Hostel",
+                    "href":"hostel.html"
+                }
+            ]
+        },
+        {
+            "text":"You can help!",
+            "id": "m-donate",
+            "href": "donate.html",
+            "items": [
+                {
+                    "text":"Donate now",
+                    "href":"donate.html"
+                },
+                {
+                    "text":"Donation shop",
+                    "href":"donationshop.html"
+                },
+                {
+                    "text":"Sponsoring",
+                    "href":"sponsoring.html"
+                },
+                {
+                    "text":"Companies",
+                    "href":"companies.html"
+                }
+            ]
+        },
+        {
+            "text":"Contact",
+            "class": "contact",
+            "href":"contact.html"
+        }
+    ]
 }

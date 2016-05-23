@@ -1,11 +1,11 @@
-	<title>{{title}} – Bowl of Compassion e.V.</title>
-	<meta property="og:title" content="{{title}} – Bowl of Compassion e.V.">
-	<meta property="og:site_name" content="Bowl of Compassion e.V.">
-	{{!-- <meta property="og:description" content="{{label.description}}"> --}}
-	<meta property="og:locale" content="{{label.locale}}">
-	<meta property="og:image" content="../img/logo.png">
-	{{#if description}}<meta name="description" content="{{description}}">{{/if}}
-	{{#if keywords}}<meta name="keywords" content="{{keywords}}">{{/if}}
+    <title>{{title}} – Bowl of Compassion e.V.</title>
+    <meta property="og:title" content="{{title}} – Bowl of Compassion e.V.">
+    <meta property="og:site_name" content="Bowl of Compassion e.V.">
+    {{!-- <meta property="og:description" content="{{label.description}}"> --}}
+    <meta property="og:locale" content="{{label.locale}}">
+    <meta property="og:image" content="../img/logo.png">
+    {{#if description}}<meta name="description" content="{{description}}">{{/if}}
+    {{#if keywords}}<meta name="keywords" content="{{keywords}}">{{/if}}
 
 </head>
 
@@ -13,62 +13,62 @@
 
 <div id="wrapper">
 
-	<header id="topbar">
+    <header id="topbar">
 
-		<div class="wrapper">
+        <div class="wrapper">
 
-			<nav>
+            <nav>
 
-				<a href="./" id="mobile-logo"></a>
+                <a href="./" id="mobile-logo"></a>
 
-				<button id="toggle-nav" class="phone-only">
-					<span></span>
-				</button>
+                <button id="toggle-nav" class="phone-only">
+                    <span></span>
+                </button>
 
-				<ul>
+                <ul>
 
-					<li class="m-lang">
-						{{#if pagemeta.link-en}}<a href="{{pagemeta.link-en}}"><img src="../img/icons/flag-usa.png" alt="Switch to english" hreflang="en" class="flag"></a>{{/if}}
-						{{#if pagemeta.link-de}}<a href="{{pagemeta.link-de}}"><img src="../img/icons/flag-de.png" alt="Zur deutschen Version" hreflang="de" class="flag"></a>{{/if}}
-					</li>
+                    <li class="m-lang">
+                        {{#if pagemeta.link-en}}<a href="{{pagemeta.link-en}}"><img src="../img/icons/flag-usa.png" alt="Switch to english" hreflang="en" class="flag"></a>{{/if}}
+                        {{#if pagemeta.link-de}}<a href="{{pagemeta.link-de}}"><img src="../img/icons/flag-de.png" alt="Zur deutschen Version" hreflang="de" class="flag"></a>{{/if}}
+                    </li>
 
-				{{#each menu.items}}
+                {{#each menu.items}}
 
-					<li class="{{#if active}}active {{/if}}{{class}}"{{#if id}} id="{{id}}"{{/if}}>
-						<{{#if href}}a href="{{href}}"{{else}}span{{/if}}>{{text}}</{{#if href}}a{{else}}span{{/if}}>
-					{{#if items}}
-						<ul>
-							{{#each items}}
-								<li class="{{#if active}} active{{/if}}"><a href="{{href}}">{{text}}</a></li>
-							{{/each}}
-						</ul>
-					{{/if}}
-					</li>
+                    <li class="{{#if active}}active {{/if}}{{class}}"{{#if id}} id="{{id}}"{{/if}}>
+                        <{{#if href}}a href="{{href}}"{{else}}span{{/if}}>{{text}}</{{#if href}}a{{else}}span{{/if}}>
+                    {{#if items}}
+                        <ul>
+                            {{#each items}}
+                                <li class="{{#if active}} active{{/if}}"><a href="{{href}}">{{text}}</a></li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                    </li>
 
-				{{/each}}
-				</ul>
+                {{/each}}
+                </ul>
 
-			</nav>
+            </nav>
 
-		</div>
+        </div>
 
-	{{!--
-		<script>
-		var navButton = document.getElementById('toggle-nav');
-		var header = document.getElementById('topbar');
+    {{!--
+        <script>
+        var navButton = document.getElementById('toggle-nav');
+        var header = document.getElementById('topbar');
 
-		navButton.addEventListener('click', function(e) {
-			header.querySelector('nav').classList.toggle('is-open');
-		});
+        navButton.addEventListener('click', function(e) {
+            header.querySelector('nav').classList.toggle('is-open');
+        });
 
-		</script>
-	--}}
-	</header>
+        </script>
+    --}}
+    </header>
 
-	<div class="stage">
-		<div class="wrapper">
-			<a href="./" id="logo">
-				<h1>Bowl of Compassion</h1>
-			</a>
-		</div>
-	</div>
+    <div class="stage">
+        <div class="wrapper">
+            <a href="./" id="logo">
+                <h1>Bowl of Compassion</h1>
+            </a>
+        </div>
+    </div>

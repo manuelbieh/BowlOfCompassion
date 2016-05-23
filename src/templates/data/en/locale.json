@@ -1,8 +1,8 @@
 {
-	"lang": "en_US",
+    "lang": "en_US",
     "lc": "EN",
-	"currency": "USD",
-	"currency-symbol": "$",
+    "currency": "USD",
+    "currency-symbol": "$",
     "bank-account": {
         "headline": "Donations",
         "account": false,

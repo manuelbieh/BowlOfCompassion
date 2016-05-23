@@ -11,116 +11,116 @@ category: p-idea
 <div class="content">
 {{#with mission}}
 
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="row">
+        <div class="row">
 
-			<div class="col w12">
-				<h1>{{headline}}</h1>
-			</div>
+            <div class="col w12">
+                <h1>{{headline}}</h1>
+            </div>
 
-			<div class="col w8 tablet-12">
-				{{#each paragraphs}}
-				<p>{{{.}}}</p>
-				{{/each}}
-			</div>
+            <div class="col w8 tablet-12">
+                {{#each paragraphs}}
+                <p>{{{.}}}</p>
+                {{/each}}
+            </div>
 
-			<div class="col w4 phone-4 tablet-12">
-				<div class="row">
-				{{#each img}}
-					<div class="col
-						{{#compare size "half"}}w6 phone-2{{/compare}}
-						{{#compare size "full"}}w12{{/compare}}">
-						<img src="{{src}}" class="full-width">
-					</div>
-				{{/each}}
-				</div>
-			</div>
+            <div class="col w4 phone-4 tablet-12">
+                <div class="row">
+                {{#each img}}
+                    <div class="col
+                        {{#compare size "half"}}w6 phone-2{{/compare}}
+                        {{#compare size "full"}}w12{{/compare}}">
+                        <img src="{{src}}" class="full-width">
+                    </div>
+                {{/each}}
+                </div>
+            </div>
 
-		</div>
-
-
-		<div class="row">
-
-			<div class="col w12">
-				<h2>{{block-01.headline}}</h2>
-			</div>
-
-			<div class="col w8 tablet-12">
-				{{#each block-01.paragraphs}}
-				<p>{{{.}}}</p>
-				{{/each}}
-			</div>
-
-			<div class="col w4 phone-4 tablet-12">
-				<div class="row">
-				{{#each block-01.img}}
-					<div class="col
-						{{#compare size "half"}}w6 phone-2{{/compare}}
-						{{#compare size "full"}}w12{{/compare}}">
-						<img src="{{src}}" class="full-width">
-					</div>
-				{{/each}}
-				</div>
-			</div>
-
-		</div>
+        </div>
 
 
-		<div class="row">
+        <div class="row">
 
-			<div class="col w12">
-				<h2>{{block-02.headline}}</h2>
-			</div>
+            <div class="col w12">
+                <h2>{{block-01.headline}}</h2>
+            </div>
 
-			<div class="col w8 tablet-12">
-				{{#each block-02.paragraphs}}
-				<p>{{{.}}}</p>
-				{{/each}}
-			</div>
+            <div class="col w8 tablet-12">
+                {{#each block-01.paragraphs}}
+                <p>{{{.}}}</p>
+                {{/each}}
+            </div>
 
-			<div class="col w4 phone-4 tablet-12">
-				<div class="row">
-				{{#each block-02.img}}
-					<div class="col
-						{{#compare size "half"}}w6 phone-2{{/compare}}
-						{{#compare size "full"}}w12{{/compare}}">
-						<img src="{{src}}" class="full-width">
-					</div>
-				{{/each}}
-				</div>
-			</div>
+            <div class="col w4 phone-4 tablet-12">
+                <div class="row">
+                {{#each block-01.img}}
+                    <div class="col
+                        {{#compare size "half"}}w6 phone-2{{/compare}}
+                        {{#compare size "full"}}w12{{/compare}}">
+                        <img src="{{src}}" class="full-width">
+                    </div>
+                {{/each}}
+                </div>
+            </div>
 
-		</div>
+        </div>
 
 
-		<div class="row">
+        <div class="row">
 
-			<div class="col w12">
-				<h2>{{block-03.headline}}</h2>
-			</div>
+            <div class="col w12">
+                <h2>{{block-02.headline}}</h2>
+            </div>
 
-			<div class="col w8 tablet-12">
-				{{#each block-03.paragraphs}}
-				<p>{{{.}}}</p>
-				{{/each}}
-			</div>
+            <div class="col w8 tablet-12">
+                {{#each block-02.paragraphs}}
+                <p>{{{.}}}</p>
+                {{/each}}
+            </div>
 
-			<div class="col w4 phone-4 tablet-12">
-				<div class="row">
-				{{#each block-03.img}}
-					<div class="col
-						{{#compare size "half"}}w6 phone-2{{/compare}}
-						{{#compare size "full"}}w12{{/compare}}">
-						<img src="{{src}}" class="full-width">
-					</div>
-				{{/each}}
-				</div>
-			</div>
+            <div class="col w4 phone-4 tablet-12">
+                <div class="row">
+                {{#each block-02.img}}
+                    <div class="col
+                        {{#compare size "half"}}w6 phone-2{{/compare}}
+                        {{#compare size "full"}}w12{{/compare}}">
+                        <img src="{{src}}" class="full-width">
+                    </div>
+                {{/each}}
+                </div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+
+        <div class="row">
+
+            <div class="col w12">
+                <h2>{{block-03.headline}}</h2>
+            </div>
+
+            <div class="col w8 tablet-12">
+                {{#each block-03.paragraphs}}
+                <p>{{{.}}}</p>
+                {{/each}}
+            </div>
+
+            <div class="col w4 phone-4 tablet-12">
+                <div class="row">
+                {{#each block-03.img}}
+                    <div class="col
+                        {{#compare size "half"}}w6 phone-2{{/compare}}
+                        {{#compare size "full"}}w12{{/compare}}">
+                        <img src="{{src}}" class="full-width">
+                    </div>
+                {{/each}}
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 {{/with}}
 </div>
@@ -128,19 +128,19 @@ category: p-idea
 {{!--
 <div class="content">
 
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w8">
-			<h1>{{mission.headline}}</h1>
-			{{#each mission.block-01.paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
+        <div class="col w8">
+            <h1>{{mission.headline}}</h1>
+            {{#each mission.block-01.paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
 
-		<div class="col w4">
-			<img src="{{mission.sidebar.img}}" alt="">
-		</div>
+        <div class="col w4">
+            <img src="{{mission.sidebar.img}}" alt="">
+        </div>
 
-	</div>
+    </div>
 </div>
 --}}

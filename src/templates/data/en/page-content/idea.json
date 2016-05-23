@@ -1,42 +1,42 @@
 {
-	"headline": "The idea behind the project",
-	"paragraphs": [
-		"I developed the idea of establishing a soup kitchen during a 2-year backpacking trip, that led me to 11 asian countries during 2007 and 2008.",
+    "headline": "The idea behind the project",
+    "paragraphs": [
+        "I developed the idea of establishing a soup kitchen during a 2-year backpacking trip, that led me to 11 asian countries during 2007 and 2008.",
 
-		"The poverty I was confronted with in the form of homelessness, malnutrition, and illnesses, raised my awareness of how privileged I am. So I decided to actively support people in need of help. When I landed in India and saw the suffering of the homeless and hungry children in a dimension that was new to me, I made the decision to set up a project. Even just an attempt to help seemed better to me than not doing anything about these conditions I had seen, even if I could just enrich the life of 10 people. The desire to help was strengthed day by day and while I was traveling through the country by train I started looking for a suitable location for my project, which I substantiated yet. My trip eventually led me to the northern Bodhgaya, a holy place for Buddhists, where the historical Buddha attained enlightement under a fig tree.",
+        "The poverty I was confronted with in the form of homelessness, malnutrition, and illnesses, raised my awareness of how privileged I am. So I decided to actively support people in need of help. When I landed in India and saw the suffering of the homeless and hungry children in a dimension that was new to me, I made the decision to set up a project. Even just an attempt to help seemed better to me than not doing anything about these conditions I had seen, even if I could just enrich the life of 10 people. The desire to help was strengthed day by day and while I was traveling through the country by train I started looking for a suitable location for my project, which I substantiated yet. My trip eventually led me to the northern Bodhgaya, a holy place for Buddhists, where the historical Buddha attained enlightement under a fig tree.",
 
-		"Bodh Gaya is a place of pilgrimage for Buddhists all over the world, visited by the Dalai Lama each year. In this little town I met Murari, who owns a restaurant, in which I had breakfast each morning. He joined me one day and we got into a conversation. During our conversation I pointed to the unacceptable living conditions in India listened attentively to my reports.",
+        "Bodh Gaya is a place of pilgrimage for Buddhists all over the world, visited by the Dalai Lama each year. In this little town I met Murari, who owns a restaurant, in which I had breakfast each morning. He joined me one day and we got into a conversation. During our conversation I pointed to the unacceptable living conditions in India listened attentively to my reports.",
 
-		"Murari told me about his projects and showed me concepts for schools and medical emergency centers that he had created. He described the suffering of the people in his village and I told him about the impressions I gained during my trip and my decision to do something about it. I told him that there were soup kitchens in Germany, which offer homeless people a free warm meal per day. He hadn’t ever heard of it and was thrilled by  the concept.",
+        "Murari told me about his projects and showed me concepts for schools and medical emergency centers that he had created. He described the suffering of the people in his village and I told him about the impressions I gained during my trip and my decision to do something about it. I told him that there were soup kitchens in Germany, which offer homeless people a free warm meal per day. He hadn’t ever heard of it and was thrilled by  the concept.",
 
-		"Murari explained to me how frustrating it was not to be able to put such ideas into practice due to lack of financial resources and the fact that most people are mere theoreticians. I told him that I was also a proponent of actions and think that the merit of a theory only finds it true value in practical implementation. We laughed at each other full of joy and both knew it was time to achieve something together. I promised him to do everything I could to find donors in Germany and internationally, to implement our project of creating a soup kitchen.",
+        "Murari explained to me how frustrating it was not to be able to put such ideas into practice due to lack of financial resources and the fact that most people are mere theoreticians. I told him that I was also a proponent of actions and think that the merit of a theory only finds it true value in practical implementation. We laughed at each other full of joy and both knew it was time to achieve something together. I promised him to do everything I could to find donors in Germany and internationally, to implement our project of creating a soup kitchen.",
 
-		"And here I am now and have founded the non-profit organization ‘A Bowl of Compassion’ in 2008 with 7 friends. Compassion is an important virtue in the Buddhist context, that needs to be developed by humility, asceticism and meditation throughout the course of life. Hence, the name harmonizes with the holy pilgrimage destination Bodh Gaya.",
+        "And here I am now and have founded the non-profit organization ‘A Bowl of Compassion’ in 2008 with 7 friends. Compassion is an important virtue in the Buddhist context, that needs to be developed by humility, asceticism and meditation throughout the course of life. Hence, the name harmonizes with the holy pilgrimage destination Bodh Gaya.",
 
-		"<strong>Help Murari and me realize this project!</strong>",
-		"<strong>Michael Saatkamp<br>Founder „A Bowl of Compassion e.V.“</strong>"
+        "<strong>Help Murari and me realize this project!</strong>",
+        "<strong>Michael Saatkamp<br>Founder „A Bowl of Compassion e.V.“</strong>"
 
-	],
-	"img": [
-		{
-			"src":"img/content/micha-murari-01.jpg",
-			"size": "half"
-		},
-		{
-			"src":"img/content/temple-01.jpg",
-			"size": "half"
-		},
-		{
-			"src":"img/content/micha-01.jpg",
-			"size": "full"
-		},
-		{
-			"src":"img/content/beginning-01.jpg",
-			"size": "full"
-		},
-		{
-			"src":"img/content/beginning-02.jpg",
-			"size": "full"
-		}
-	]
+    ],
+    "img": [
+        {
+            "src":"img/content/micha-murari-01.jpg",
+            "size": "half"
+        },
+        {
+            "src":"img/content/temple-01.jpg",
+            "size": "half"
+        },
+        {
+            "src":"img/content/micha-01.jpg",
+            "size": "full"
+        },
+        {
+            "src":"img/content/beginning-01.jpg",
+            "size": "full"
+        },
+        {
+            "src":"img/content/beginning-02.jpg",
+            "size": "full"
+        }
+    ]
 }

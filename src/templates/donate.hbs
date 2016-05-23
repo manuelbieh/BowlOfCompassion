@@ -9,46 +9,46 @@ category: p-donate
 
 <div class="content">
 {{#with donate}}
-	<div class="wrapper minigrid">
+    <div class="wrapper minigrid">
 
-		<div class="col w12">
-			<h1>{{headline}}</h1>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
+        <div class="col w12">
+            <h1>{{headline}}</h1>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
 
-		{{#with block-01}}
-		<div class="col w4 phone-4">
-			<h2>{{headline}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-		</div>
-		{{/with}}
+        {{#with block-01}}
+        <div class="col w4 phone-4">
+            <h2>{{headline}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+        </div>
+        {{/with}}
 
-		{{#with block-02}}
-		<div class="col w4 phone-4">
-			<h2>{{headline}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-			{{> _paypal-donate-recurring}}<br>
-		</div>
-		{{/with}}
-
-
-		{{#with block-03}}
-		<div class="col w4 phone-4">
-			<h2>{{headline}}</h2>
-			{{#each paragraphs}}
-			<p>{{{.}}}</p>
-			{{/each}}
-			{{> _paypal-donate-single}}<br>
-		</div>
-		{{/with}}
+        {{#with block-02}}
+        <div class="col w4 phone-4">
+            <h2>{{headline}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+            {{> _paypal-donate-recurring}}<br>
+        </div>
+        {{/with}}
 
 
-	</div>
+        {{#with block-03}}
+        <div class="col w4 phone-4">
+            <h2>{{headline}}</h2>
+            {{#each paragraphs}}
+            <p>{{{.}}}</p>
+            {{/each}}
+            {{> _paypal-donate-single}}<br>
+        </div>
+        {{/with}}
+
+
+    </div>
 {{/with}}
 </div>
