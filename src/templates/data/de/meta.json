@@ -103,6 +103,12 @@
             "title": "Impressum",
             "link-en": "../en/legal-information.html",
             "active": ["impressum.html"]
+        },
+        "privacy": {
+            "filename":"datenschutz.html",
+            "title": "Datenschutz",
+            "link-en": "../en/privacy.html",
+            "active": ["datenschutz.html"]
         }
     }
 }

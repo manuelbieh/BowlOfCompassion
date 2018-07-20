@@ -19,23 +19,23 @@
     ],
     "img": [
         {
-            "src":"img/content/micha-murari-01.jpg",
+            "src":"/img/content/micha-murari-01.jpg",
             "size": "half"
         },
         {
-            "src":"img/content/temple-01.jpg",
+            "src":"/img/content/temple-01.jpg",
             "size": "half"
         },
         {
-            "src":"img/content/micha-01.jpg",
+            "src":"/img/content/micha-01.jpg",
             "size": "full"
         },
         {
-            "src":"img/content/beginning-01.jpg",
+            "src":"/img/content/beginning-01.jpg",
             "size": "full"
         },
         {
-            "src":"img/content/beginning-02.jpg",
+            "src":"/img/content/beginning-02.jpg",
             "size": "full"
         }
     ]

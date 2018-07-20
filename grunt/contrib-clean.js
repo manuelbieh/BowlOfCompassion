@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 			'<%= config.dirs.dist %>/**/*.coffee',
 			'<%= config.dirs.dist %>/**/*.styl',
 			'<%= config.dirs.dist %>/**/*.less',
-			'<%= config.dirs.dist %>/htdocs/css/!(*styles*|*vendor*).css',
+			'<%= config.dirs.dist %>/htdocs/css/!(*styles*|*vendor*|*custom*).css',
 			'<%= config.dirs.dist %>/htdocs/js/!(*main*).js',
 			'.tmp'
 		]

@@ -8,15 +8,15 @@
     ],
     "img": [
         {
-            "src":"img/content/soupkitchen-01.jpg",
+            "src":"/img/content/soupkitchen-01.jpg",
             "size": "half"
         },
         {
-            "src":"img/content/school-02.jpg",
+            "src":"/img/content/school-02.jpg",
             "size": "half"
         },
         {
-            "src":"img/content/lunch-01.jpg",
+            "src":"/img/content/lunch-01.jpg",
             "size": "full"
         }
     ],
@@ -28,11 +28,11 @@
         ],
         "img": [
             {
-                "src":"img/content/lunch-02.jpg",
+                "src":"/img/content/lunch-02.jpg",
                 "size": "half"
             },
             {
-                "src":"img/content/construction-01.jpg",
+                "src":"/img/content/construction-01.jpg",
                 "size": "half"
             }
         ]
@@ -45,7 +45,7 @@
         ],
         "img": [
             {
-                "src":"img/content/school-03.jpg",
+                "src":"/img/content/school-03.jpg",
                 "size": "full"
             }
         ]

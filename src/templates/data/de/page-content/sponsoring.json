@@ -14,16 +14,16 @@
             "grid-class": "col w3 phone-4",
             "items": [
                 {
-                    "src":"img/content/sponsored-01.jpg"
+                    "src":"/img/content/sponsored-01.jpg"
                 },
                 {
-                    "src":"img/content/sponsored-05.jpg"
+                    "src":"/img/content/sponsored-05.jpg"
                 },
                 {
-                    "src":"img/content/sponsored-03.jpg"
+                    "src":"/img/content/sponsored-03.jpg"
                 },
                 {
-                    "src":"img/content/sponsored-02.jpg"
+                    "src":"/img/content/sponsored-02.jpg"
                 }
             ]
         }

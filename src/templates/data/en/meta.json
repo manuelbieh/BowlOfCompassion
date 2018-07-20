@@ -101,6 +101,12 @@
             "title": "Legal information",
             "link-de": "../de/impressum.html",
             "active": ["legal-information.html"]
+        },
+        "privacy": {
+            "filename":"privacy.html",
+            "title": "Privacy",
+            "link-de": "../de/datenschutz.html",
+            "active": ["privacy.html"]
         }
     }
 }

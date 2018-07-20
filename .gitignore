@@ -20,3 +20,4 @@ dist/
 src/components
 .ftppass
 .grunt
+_backup

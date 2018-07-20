@@ -8,10 +8,10 @@
         ],
         "img": [
             {
-                "src":"img/content/sushma-01b.jpg"
+                "src":"/img/content/sushma-01b.jpg"
             },
             {
-                "src":"img/content/lunch-02.jpg"
+                "src":"/img/content/lunch-02.jpg"
             }
         ]
     },

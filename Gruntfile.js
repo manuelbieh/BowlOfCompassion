@@ -105,6 +105,6 @@ module.exports = function(grunt) {
 
 	// Alias tasks
 	grunt.registerTask('stage', ['deploy:stage']);
-	grunt.registerTask('publis', ['deploy:live']);
+	grunt.registerTask('publish', ['deploy:live']);
 
 };

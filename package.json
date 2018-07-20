@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "homepage": "http://www.wiremore.net/",
   "description": "",
+  "scripts": {
+    "develop": "grunt serve:dev",
+    "build": "grunt build",
+    "stage": "grunt stage",
+    "publish": "grunt publish"
+  },
   "keywords": [
     "a",
     "b",

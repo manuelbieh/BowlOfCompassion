@@ -5,7 +5,7 @@
     ],
     "quote": "<q>Give a man a fish and you feed him for a day;<br> teach a man to fish and you feed him for a lifetime</q><br> – Maimonides",
     "img": {
-        "src":"img/content/school-03.jpg"
+        "src":"/img/content/school-03.jpg"
     },
     "block-01": {
         "headline":"The “A Bowl of Compassion” Primary School",
@@ -16,10 +16,10 @@
         ],
         "img": [
             {
-                "src":"img/content/school-01.jpg"
+                "src":"/img/content/school-01.jpg"
             },
             {
-                "src":"img/content/school-02.jpg"
+                "src":"/img/content/school-02.jpg"
             }
         ]
     },
@@ -30,10 +30,10 @@
         ],
         "img": [
             {
-                "src":"img/content/school-04.jpg"
+                "src":"/img/content/school-04.jpg"
             },
             {
-                "src":"img/content/school-05.jpg"
+                "src":"/img/content/school-05.jpg"
             }
         ]
     }

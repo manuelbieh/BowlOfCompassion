@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 		live: {
 			auth: {
-				host: 'wiremore.de',
+				host: 'bowlofcompassion.org',
 				port: 21,
 				authKey: 'live'
 			},
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 
 		stage: {
 			auth: {
-				host: 'wiremore.de',
+				host: 'bowlofcompassion.org',
 				port: 21,
 				authKey: 'stage'
 			},
